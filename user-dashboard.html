@@ -377,5 +377,21 @@
         document.getElementById("userName").innerText = user;
       }
     </script>
+
+    <script>
+      window.onload = function () {
+        // Lấy điểm từ "thẻ nhớ" ra
+        let diemDaLuu = localStorage.getItem("userScore");
+
+        // Nếu có điểm thì hiện ra, không có thì hiện số 0
+        if (diemDaLuu) {
+          // Giả sử có 1 cái thẻ HTML có id là "display-score"
+          document.getElementById("display-score").innerText =
+            diemDaLuu + " Điểm";
+        } else {
+          document.getElementById("display-score").innerText = "0 Điểm";
+        }
+      };
+    </script>
   </body>
 </html>
