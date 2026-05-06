@@ -1,0 +1,381 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard | WildSphere</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "Inter", sans-serif;
+        background-color: #fdfaf2;
+      }
+      .glass-card {
+        background: rgba(255, 255, 255, 0.8);
+        backdrop-filter: blur(10px);
+      }
+      .active-link {
+        border-left: 4px solid #c49a68;
+        background: rgba(196, 154, 104, 0.1);
+        color: #0b1f3a !important;
+      }
+    </style>
+  </head>
+  <body class="text-slate-800">
+    <div class="flex min-h-screen">
+      <!-- SIDEBAR -->
+      <aside class="w-64 bg-[#0b1f3a] text-white hidden md:flex flex-col">
+        <div class="p-8 text-2xl font-extrabold tracking-tighter">
+          WildSphere
+        </div>
+
+        <nav class="flex-1 px-4 space-y-2">
+          <a
+            href="index.html"
+            class="flex items-center gap-3 p-3 text-slate-400 hover:text-white transition"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+              <polyline points="9 22 9 12 15 12 15 22"></polyline>
+            </svg>
+            Trang chủ
+          </a>
+          <a
+            href="#"
+            class="flex items-center gap-3 p-3 active-link text-white font-semibold"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
+              <circle cx="9" cy="7" r="4"></circle>
+              <path d="M22 21v-2a4 4 0 0 0-3-3.87"></path>
+              <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+            </svg>
+            Dashboard
+          </a>
+          <a
+            href="#"
+            class="flex items-center gap-3 p-3 text-slate-400 hover:text-white transition"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path
+                d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"
+              ></path>
+            </svg>
+            Đã lưu (12)
+          </a>
+          <a
+            href="#"
+            class="flex items-center gap-3 p-3 text-slate-400 hover:text-white transition"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <circle cx="12" cy="12" r="10"></circle>
+              <polyline points="12 6 12 12 16 14"></polyline>
+            </svg>
+            Lịch sử xem
+          </a>
+          <a
+            href="#"
+            class="flex items-center gap-3 p-3 text-slate-400 hover:text-white transition"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path
+                d="M12.22 2h-.44a2 2 0 0 0-2 2v.18a2 2 0 0 1-1 1.73l-.43.25a2 2 0 0 1-2 0l-.15-.08a2 2 0 0 0-2.73.73l-.22.38a2 2 0 0 0 .73 2.73l.15.1a2 2 0 0 1 1 1.72v.51a2 2 0 0 1-1 1.74l-.15.09a2 2 0 0 0-.73 2.73l.22.38a2 2 0 0 0 2.73.73l.15-.08a2 2 0 0 1 2 0l.43.25a2 2 0 0 1 1 1.73V20a2 2 0 0 0 2 2h.44a2 2 0 0 0 2-2v-.18a2 2 0 0 1 1-1.73l.43-.25a2 2 0 0 1 2 0l.15.08a2 2 0 0 0 2.73-.73l.22-.39a2 2 0 0 0-.73-2.73l-.15-.08a2 2 0 0 1-1-1.74v-.5a2 2 0 0 1 1-1.74l.15-.09a2 2 0 0 0 .73-2.73l-.22-.38a2 2 0 0 0-2.73-.73l-.15.08a2 2 0 0 1-2 0l-.43-.25a2 2 0 0 1-1-1.73V4a2 2 0 0 0-2-2z"
+              ></path>
+              <circle cx="12" cy="12" r="3"></circle>
+            </svg>
+            Cài đặt
+          </a>
+        </nav>
+
+        <div class="p-4 mt-auto">
+          <button
+            class="w-full p-3 bg-red-500/10 text-red-400 rounded-lg font-medium hover:bg-red-500/20 transition duration-200"
+            onclick="window.location.href = 'index.html'"
+          >
+            Đăng xuất
+          </button>
+        </div>
+      </aside>
+
+      <!-- MAIN CONTENT -->
+      <main class="flex-1 overflow-y-auto">
+        <!-- TOP HEADER -->
+        <header
+          class="h-20 border-b flex items-center justify-between px-8 bg-white/50 sticky top-0 z-10 backdrop-blur-md"
+        >
+          <div>
+            <h1 class="text-xl font-bold text-[#0b1f3a]">
+              Xin chào, <span id="userName">Nhà thám hiểm</span> 👋
+            </h1>
+            <p class="text-sm text-slate-500">
+              Hôm nay bạn muốn tìm hiểu loài vật nào?
+            </p>
+          </div>
+          <div class="flex items-center gap-4">
+            <button class="p-2 text-slate-400 hover:text-[#0b1f3a] relative">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"></path>
+                <path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"></path>
+              </svg>
+              <span
+                class="absolute top-2 right-2 w-2 h-2 bg-red-500 rounded-full"
+              ></span>
+            </button>
+            <div
+              class="w-10 h-10 bg-[#c49a68] rounded-full border-2 border-white shadow-sm flex items-center justify-center text-white font-bold"
+            >
+              U
+            </div>
+          </div>
+        </header>
+
+        <div class="p-8 space-y-8">
+          <!-- STATS CARDS -->
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div
+              class="glass-card p-6 rounded-2xl border border-white shadow-sm"
+            >
+              <p
+                class="text-sm text-slate-500 font-medium uppercase tracking-wider"
+              >
+                Đã khám phá
+              </p>
+              <div class="flex items-end gap-2 mt-2">
+                <span class="text-4xl font-black text-[#0b1f3a]">42</span>
+                <span class="text-green-500 text-sm font-bold mb-1"
+                  >+5 tuần này</span
+                >
+              </div>
+            </div>
+            <div
+              class="glass-card p-6 rounded-2xl border border-white shadow-sm"
+            >
+              <p
+                class="text-sm text-slate-500 font-medium uppercase tracking-wider"
+              >
+                Bài viết đã lưu
+              </p>
+              <div class="mt-2">
+                <span class="text-4xl font-black text-[#0b1f3a]">12</span>
+              </div>
+            </div>
+            <div
+              class="glass-card p-6 rounded-2xl border border-white shadow-sm"
+            >
+              <p
+                class="text-sm text-slate-500 font-medium uppercase tracking-wider"
+              >
+                Huy hiệu
+              </p>
+              <div class="flex gap-2 mt-2">
+                <div
+                  class="w-8 h-8 rounded-full bg-yellow-100 flex items-center justify-center text-lg"
+                  title="Thám hiểm tập sự"
+                >
+                  🌍
+                </div>
+                <div
+                  class="w-8 h-8 rounded-full bg-blue-100 flex items-center justify-center text-lg"
+                  title="Yêu động vật"
+                >
+                  🐾
+                </div>
+                <div
+                  class="w-8 h-8 rounded-full bg-red-100 flex items-center justify-center text-lg"
+                  title="Người bảo vệ"
+                >
+                  🛡️
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- SAVED LIST SECTION -->
+          <section>
+            <div class="flex items-center justify-between mb-6">
+              <h2 class="text-2xl font-bold text-[#0b1f3a]">
+                Bộ sưu tập đã lưu
+              </h2>
+              <button
+                class="text-[#c49a68] font-semibold text-sm hover:underline"
+              >
+                Xem tất cả
+              </button>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+              <!-- Animal Card Item -->
+              <div
+                class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-md transition group cursor-pointer border border-slate-100"
+              >
+                <div class="relative h-40">
+                  <img
+                    src="./image/châu phi/su-tu.jpg"
+                    class="w-full h-full object-cover group-hover:scale-105 transition duration-500"
+                    alt="Sư tử"
+                  />
+                  <button
+                    class="absolute top-3 right-3 p-2 bg-white/90 rounded-full text-red-500 shadow-sm"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24 24"
+                      fill="currentColor"
+                    >
+                      <path
+                        d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"
+                      ></path>
+                    </svg>
+                  </button>
+                </div>
+                <div class="p-4">
+                  <span class="text-[10px] font-bold text-[#c49a68] uppercase"
+                    >Châu Phi</span
+                  >
+                  <h3 class="font-bold text-[#0b1f3a] mt-1">Sư tử Châu Phi</h3>
+                </div>
+              </div>
+              <!-- Animal Card Item -->
+              <div
+                class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-md transition group cursor-pointer border border-slate-100"
+              >
+                <div class="relative h-40">
+                  <img
+                    src="./image/châu á/gautruc.jpg"
+                    class="w-full h-full object-cover group-hover:scale-105 transition duration-500"
+                    alt="Gấu trúc"
+                  />
+                  <button
+                    class="absolute top-3 right-3 p-2 bg-white/90 rounded-full text-red-500 shadow-sm"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24 24"
+                      fill="currentColor"
+                    >
+                      <path
+                        d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"
+                      ></path>
+                    </svg>
+                  </button>
+                </div>
+                <div class="p-4">
+                  <span class="text-[10px] font-bold text-[#c49a68] uppercase"
+                    >Châu Á</span
+                  >
+                  <h3 class="font-bold text-[#0b1f3a] mt-1">Gấu trúc lớn</h3>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- RECENTLY VIEWED -->
+          <div
+            class="bg-[#0b1f3a] rounded-2xl p-8 text-white flex flex-col md:flex-row items-center gap-8 overflow-hidden relative"
+          >
+            <div class="relative z-10 flex-1">
+              <h3 class="text-2xl font-bold mb-2">
+                Tiếp tục hành trình bảo tồn?
+              </h3>
+              <p class="text-slate-300 mb-6 max-w-md">
+                Bạn đang xem dở bài viết về loài
+                <span class="text-white font-bold italic">Tê tê Châu Á</span>.
+                Hãy cùng tìm hiểu về nỗ lực bảo tồn chúng!
+              </p>
+              <button
+                class="px-6 py-3 bg-[#c49a68] text-white rounded-xl font-bold hover:bg-[#b38a5a] transition"
+              >
+                Tiếp tục đọc
+              </button>
+            </div>
+            <img
+              src="./image/châu á/te-te.webp"
+              class="w-48 h-48 rounded-2xl object-cover rotate-3 shadow-2xl relative z-10"
+              alt="Sao la"
+            />
+            <!-- Decorative circle -->
+            <div
+              class="absolute -right-20 -bottom-20 w-80 h-80 bg-white/5 rounded-full"
+            ></div>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <script>
+      // Hiển thị tên người dùng từ LocalStorage
+      const user = localStorage.getItem("wildsphereCurrentUser");
+      if (user) {
+        document.getElementById("userName").innerText = user;
+      }
+    </script>
+  </body>
+</html>
