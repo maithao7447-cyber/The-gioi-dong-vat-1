@@ -249,7 +249,27 @@
       </button>
     </div>
 
+    <div
+      style="
+        background: white;
+        padding: 20px;
+        border: 3px solid red;
+        margin: 20px;
+      "
+    >
+      <h2 id="cau-hoi">Đang tải câu hỏi...</h2>
+
+      <button class="nut-dap-an" onclick="checkAnswer(0)">Nút A</button>
+      <button class="nut-dap-an" onclick="checkAnswer(1)">Nút B</button>
+      <button class="nut-dap-an" onclick="checkAnswer(2)">Nút C</button>
+      <button class="nut-dap-an" onclick="checkAnswer(3)">Nút D</button>
+
+      <h3 id="thong-bao" style="color: blue"></h3>
+      <h3 id="diem-so">Điểm: 0</h3>
+    </div>
+
     <!-- FILE JAVASCRIPT -->
     <script src="script.js"></script>
+    <script src="quiz.js"></script>
   </body>
 </html>
