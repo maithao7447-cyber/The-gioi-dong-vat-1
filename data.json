@@ -1,0 +1,1442 @@
+[
+  {
+    "id": 1,
+    "question": "Sự thật thú vị nào sau đây ĐÚNG về loài Bò tót rừng (American Bison)?",
+    "answers": [
+      "Chúng có khả năng ngụy trang đổi màu theo môi trường.",
+      "Mặc dù nặng tới hơn 1 tấn, bò tót có khả năng chạy với tốc độ 55km/h và có thể nhảy cao tới 1.8 mét.",
+      "Chúng chỉ sinh sản 1 lần duy nhất trong suốt vòng đời.",
+      "Đây là loài vật có thể nhịn uống nước trong 6 tháng."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Chính xác! Bò tót rừng là loài động vật có vú trên cạn lớn nhất Bắc Mỹ. Chúng có bộ lông nâu dày để chống chọi với mùa đông khắc nghiệt và chiếc bướu cơ bắp trên vai giúp điều khiển cái đầu to lớn như một chiếc máy ủi tuyết."
+  },
+  {
+    "id": 2,
+    "question": "Sự thật thú vị nào sau đây ĐÚNG về loài Sư tử Châu Phi (African Lion)?",
+    "answers": [
+      "Chúng có khả năng ngụy trang đổi màu theo môi trường.",
+      "Chúng chỉ sinh sản 1 lần duy nhất trong suốt vòng đời.",
+      "Đây là loài vật có thể nhịn uống nước trong 6 tháng.",
+      "Tiếng gầm của một con sư tử đực trưởng thành có thể vang xa tới 8km, được dùng để đánh dấu lãnh thổ và giao tiếp với các thành viên khác."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Chính xác! Sư tử là loài duy nhất trong họ nhà Mèo sống theo bầy đàn xã hội. Con đực nổi bật với chiếc bờm oai vệ, vốn có chức năng bảo vệ cổ trong các cuộc chiến và thu hút con cái."
+  },
+  {
+    "id": 3,
+    "question": "Sự thật thú vị nào sau đây ĐÚNG về loài Hổ Bengal (Bengal Tiger)?",
+    "answers": [
+      "Chúng có khả năng ngụy trang đổi màu theo môi trường.",
+      "Không có hai con hổ nào có cùng một kiểu vằn. Các vết vằn này không chỉ nằm trên lông mà còn hằn sâu dưới lớp da của chúng.",
+      "Chúng chỉ sinh sản 1 lần duy nhất trong suốt vòng đời.",
+      "Đây là loài vật có thể nhịn uống nước trong 6 tháng."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Chính xác! Hổ Bengal là biểu tượng của sức mạnh và sự cô độc. Chúng sở hữu đôi mắt có tầm nhìn ban đêm gấp 6 lần con người và bộ móng vuốt có thể thu gọn cực kỳ sắc bén."
+  },
+  {
+    "id": 4,
+    "question": "Sự thật thú vị nào sau đây ĐÚNG về loài Voi bụi rậm Châu Phi (African Bush Elephant)?",
+    "answers": [
+      "Chúng có khả năng ngụy trang đổi màu theo môi trường.",
+      "Đây là loài vật có thể nhịn uống nước trong 6 tháng.",
+      "Chúng chỉ sinh sản 1 lần duy nhất trong suốt vòng đời.",
+      "Chiếc vòi của voi có hơn 40.000 bó cơ, có thể nhấc bổng một vật nặng 300kg nhưng cũng đủ khéo léo để nhặt một hạt đậu nhỏ."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Chính xác! Đây là loài động vật trên cạn lớn nhất thế giới. Voi sở hữu một trí tuệ vượt trội, khả năng thấu cảm và cấu trúc xã hội cực kỳ phức tạp dựa trên trí nhớ dài hạn."
+  },
+  {
+    "id": 5,
+    "question": "Sự thật thú vị nào sau đây ĐÚNG về loài Báo đốm Mỹ (Jaguar)?",
+    "answers": [
+      "Đây là loài vật có thể nhịn uống nước trong 6 tháng.",
+      "Chúng chỉ sinh sản 1 lần duy nhất trong suốt vòng đời.",
+      "Chúng có khả năng ngụy trang đổi màu theo môi trường.",
+      "Tên 'Jaguar' xuất phát từ chữ 'yaguar' trong tiếng bản địa, có nghĩa là 'kẻ giết chết chỉ bằng một cú nhảy'."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Chính xác! Jaguar là loài mèo lớn nhất Tây bán cầu. Chúng có cấu trúc xương hàm cực kỳ mạnh mẽ, cho phép chúng xuyên thủng cả mai rùa hay lớp da dày của cá sấu Caiman."
+  },
+  {
+    "id": 6,
+    "question": "Sự thật thú vị nào sau đây ĐÚNG về loài Gấu Bắc Cực (Polar Bear)?",
+    "answers": [
+      "Chúng chỉ sinh sản 1 lần duy nhất trong suốt vòng đời.",
+      "Dưới lớp lông màu trắng, da của gấu Bắc Cực thực chất có màu đen để giúp chúng hấp thụ tối đa nhiệt lượng từ ánh sáng mặt trời.",
+      "Chúng có khả năng ngụy trang đổi màu theo môi trường.",
+      "Đây là loài vật có thể nhịn uống nước trong 6 tháng."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Chính xác! Được coi là loài thú ăn thịt lớn nhất trên đất liền. Gấu Bắc Cực có lớp mỡ dày tới 10cm và bộ lông không thấm nước giúp chúng chịu đựng cái lạnh âm độ."
+  },
+  {
+    "id": 7,
+    "question": "Sự thật thú vị nào sau đây ĐÚNG về loài Gấu trúc lớn (Giant Panda)?",
+    "answers": [
+      "Gấu trúc có một 'ngón tay cái giả' - thực chất là một xương cổ tay kéo dài giúp chúng có thể cầm nắm thân tre một cách điệu nghệ.",
+      "Đây là loài vật có thể nhịn uống nước trong 6 tháng.",
+      "Chúng chỉ sinh sản 1 lần duy nhất trong suốt vòng đời.",
+      "Chúng có khả năng ngụy trang đổi màu theo môi trường."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Chính xác! Loài gấu có vẻ ngoài hiền lành với hai quầng thâm quanh mắt đặc trưng. Chúng là niềm tự hào của bảo tồn thiên nhiên Trung Quốc và thế giới."
+  },
+  {
+    "id": 8,
+    "question": "Sự thật thú vị nào sau đây ĐÚNG về loài Sói xám (Gray Wolf)?",
+    "answers": [
+      "Đây là loài vật có thể nhịn uống nước trong 6 tháng.",
+      "Một con sói đầu đàn có thể dẫn dắt đàn di chuyển liên tục hơn 50km mỗi ngày để tìm kiếm thức ăn.",
+      "Chúng chỉ sinh sản 1 lần duy nhất trong suốt vòng đời.",
+      "Chúng có khả năng ngụy trang đổi màu theo môi trường."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Chính xác! Sói xám là tổ tiên của các loài chó nhà hiện nay. chúng có khả năng chịu đựng phi thường và tính tổ chức xã hội cao nhất trong các loài thú săn mồi."
+  },
+  {
+    "id": 9,
+    "question": "Sự thật thú vị nào sau đây ĐÚNG về loài Kangaroo đỏ (Red Kangaroo)?",
+    "answers": [
+      "Chúng chỉ sinh sản 1 lần duy nhất trong suốt vòng đời.",
+      "Kangaroo đỏ không thể đi giật lùi do cấu tạo của đôi chân và chiếc đuôi quá lớn.",
+      "Chúng có khả năng ngụy trang đổi màu theo môi trường.",
+      "Đây là loài vật có thể nhịn uống nước trong 6 tháng."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Chính xác! Loài thú có túi lớn nhất thế giới. Kangaroo đỏ có đôi chân sau cực khỏe và chiếc đuôi cơ bắp đóng vai trò như chiếc chân thứ ba để giữ thăng bằng."
+  },
+  {
+    "id": 10,
+    "question": "Sự thật thú vị nào sau đây ĐÚNG về loài Hươu cao cổ (Giraffe)?",
+    "answers": [
+      "Đây là loài vật có thể nhịn uống nước trong 6 tháng.",
+      "Chúng có khả năng ngụy trang đổi màu theo môi trường.",
+      "Chúng chỉ sinh sản 1 lần duy nhất trong suốt vòng đời.",
+      "Trái tim của hươu cao cổ nặng tới 11kg để có đủ áp lực bơm máu lên tận não bộ qua chiếc cổ dài gần 2 mét."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Chính xác! Động vật cao nhất thế giới. Chiếc cổ dài của chúng có số lượng đốt sống cổ bằng với con người (7 đốt) nhưng mỗi đốt lại cực kỳ dài."
+  },
+  {
+    "id": 11,
+    "question": "Sự thật thú vị nào sau đây ĐÚNG về loài Đười ươi Borneo (Bornean Orangutan)?",
+    "answers": [
+      "Chúng chỉ sinh sản 1 lần duy nhất trong suốt vòng đời.",
+      "Đây là loài vật có thể nhịn uống nước trong 6 tháng.",
+      "Đười ươi có sải tay dài tới 2 mét, dài hơn nhiều so với chiều cao cơ thể của chúng.",
+      "Chúng có khả năng ngụy trang đổi màu theo môi trường."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Chính xác! Loài linh trưởng thông minh sống trên cây lớn nhất thế giới. Tên của chúng trong tiếng Mã Lai có nghĩa là 'Người rừng'."
+  },
+  {
+    "id": 12,
+    "question": "Sự thật thú vị nào sau đây ĐÚNG về loài Rồng Komodo (Komodo Dragon)?",
+    "answers": [
+      "Chúng có khả năng ngụy trang đổi màu theo môi trường.",
+      "Đây là loài vật có thể nhịn uống nước trong 6 tháng.",
+      "Chúng chỉ sinh sản 1 lần duy nhất trong suốt vòng đời.",
+      "Rồng Komodo có thể ăn lượng thức ăn bằng 80% trọng lượng cơ thể chúng chỉ trong một bữa."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Chính xác! Loài thằn lằn lớn nhất thế giới, hậu duệ của thời tiền sử hiện chỉ còn sống trên một vài hòn đảo ở Indonesia."
+  },
+  {
+    "id": 13,
+    "question": "Sự thật thú vị nào sau đây ĐÚNG về loài Đại bàng Philippine (Philippine Eagle)?",
+    "answers": [
+      "Chúng có khả năng ngụy trang đổi màu theo môi trường.",
+      "Đây là loài vật có thể nhịn uống nước trong 6 tháng.",
+      "Chúng là loài cực kỳ chung thủy, một cặp đại bàng sẽ gắn bó với nhau trọn đời.",
+      "Chúng chỉ sinh sản 1 lần duy nhất trong suốt vòng đời."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Chính xác! Một trong những loài đại bàng lớn và mạnh mẽ nhất thế giới. Chúng là quốc điểu của Philippines."
+  },
+  {
+    "id": 14,
+    "question": "Sự thật thú vị nào sau đây ĐÚNG về loài Ếch phi tiêu độc (Poison Dart Frog)?",
+    "answers": [
+      "Chúng có khả năng ngụy trang đổi màu theo môi trường.",
+      "Chất độc của một con ếch phi tiêu vàng nhỏ bé đủ để hạ gục 10 người trưởng thành.",
+      "Chúng chỉ sinh sản 1 lần duy nhất trong suốt vòng đời.",
+      "Đây là loài vật có thể nhịn uống nước trong 6 tháng."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Chính xác! Loài lưỡng cư có màu sắc rực rỡ nhất rừng Amazon, màu sắc này là lời cảnh báo chết người đối với kẻ săn mồi."
+  },
+  {
+    "id": 15,
+    "question": "Sự thật thú vị nào sau đây ĐÚNG về loài Hổ Siberia (Siberian Tiger)?",
+    "answers": [
+      "Đây là loài vật có thể nhịn uống nước trong 6 tháng.",
+      "Lớp mỡ dưới da của hổ Siberia có thể dày tới 5cm để giúp chúng sinh tồn qua mùa đông khắc nghiệt âm hàng chục độ C.",
+      "Chúng có khả năng ngụy trang đổi màu theo môi trường.",
+      "Chúng chỉ sinh sản 1 lần duy nhất trong suốt vòng đời."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Chính xác! Phân loài mèo lớn nhất thế giới sống tại vùng Viễn Đông Nga và Trung Quốc. Chúng có bộ lông dày, dài và màu nhạt hơn để ngụy trang hoàn hảo trong tuyết."
+  },
+  {
+    "id": 16,
+    "question": "Sự thật thú vị nào sau đây ĐÚNG về loài Hổ Sumatra (Sumatran Tiger)?",
+    "answers": [
+      "Đây là loài vật có thể nhịn uống nước trong 6 tháng.",
+      "Chúng có khả năng ngụy trang đổi màu theo môi trường.",
+      "Lông bờm quanh cổ và má của hổ đực Sumatra phát triển rất rậm rạp, khiến chúng trông gần giống như một con sư tử nhỏ.",
+      "Chúng chỉ sinh sản 1 lần duy nhất trong suốt vòng đời."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Chính xác! Phân loài hổ nhỏ nhất thế giới, chỉ còn tồn tại duy nhất trên hòn đảo Sumatra của Indonesia. Bộ lông của chúng có màu cam sẫm nhất với các sọc đen rất dày."
+  },
+  {
+    "id": 17,
+    "question": "Sự thật thú vị nào sau đây ĐÚNG về loài Voi Châu Á (Asian Elephant)?",
+    "answers": [
+      "Chỉ có voi đực châu Á mới mọc ngà lớn, trong khi voi cái hoàn toàn không có ngà hoặc ngà cực kỳ ngắn ẩn dưới môi (gọi là tush).",
+      "Chúng chỉ sinh sản 1 lần duy nhất trong suốt vòng đời.",
+      "Chúng có khả năng ngụy trang đổi màu theo môi trường.",
+      "Đây là loài vật có thể nhịn uống nước trong 6 tháng."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Chính xác! Nhỏ hơn voi châu Phi, đặc trưng dễ nhận biết nhất là đôi tai nhỏ, vòi chỉ có một 'ngón tay' để gắp đồ vật và trán có hai bướu nhô lên."
+  },
+  {
+    "id": 18,
+    "question": "Sự thật thú vị nào sau đây ĐÚNG về loài Gấu chó (Malayan Sun Bear)?",
+    "answers": [
+      "Đây là loài vật có thể nhịn uống nước trong 6 tháng.",
+      "Gấu chó sở hữu chiếc lưỡi dài kỷ lục lên tới 25cm, chuyên dùng để hút mật ong và thò sâu vào thân cây bắt tổ mối.",
+      "Chúng chỉ sinh sản 1 lần duy nhất trong suốt vòng đời.",
+      "Chúng có khả năng ngụy trang đổi màu theo môi trường."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Chính xác! Loài gấu nhỏ nhất thế giới sống tại Đông Nam Á. Chúng có bộ lông đen tuyền và một vệt lông màu vàng cam hình chữ U trước ngực giống như mặt trời mọc."
+  },
+  {
+    "id": 19,
+    "question": "Sự thật thú vị nào sau đây ĐÚNG về loài Gấu ngựa (Moon Bear)?",
+    "answers": [
+      "Đây là loài vật có thể nhịn uống nước trong 6 tháng.",
+      "Gấu ngựa có thể đứng và đi bằng hai chân sau cực kỳ vững vàng, chúng thường xuyên làm vậy để giành lợi thế chiều cao khi giao chiến.",
+      "Chúng có khả năng ngụy trang đổi màu theo môi trường.",
+      "Chúng chỉ sinh sản 1 lần duy nhất trong suốt vòng đời."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Chính xác! Đặc trưng với vệt lông hình chữ V màu trắng hoặc kem trên ngực nổi bật trên nền lông đen dày. Lông ở vùng cổ và vai chúng rất dài tạo thành một chiếc bờm."
+  },
+  {
+    "id": 20,
+    "question": "Sự thật thú vị nào sau đây ĐÚNG về loài Tê giác một sừng (Indian Rhinoceros)?",
+    "answers": [
+      "Đây là loài vật có thể nhịn uống nước trong 6 tháng.",
+      "Chúng có khả năng ngụy trang đổi màu theo môi trường.",
+      "Khác với các loài tê giác khác dùng sừng để chiến đấu, tê giác một sừng sử dụng những chiếc răng cửa hàm dưới cực kỳ sắc nhọn để tự vệ.",
+      "Chúng chỉ sinh sản 1 lần duy nhất trong suốt vòng đời."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Chính xác! Sở hữu lớp da màu xám bạc có nhiều nếp gấp khổng lồ, khiến chúng trông như đang mặc những tấm áo giáp thép bọc đinh tán."
+  },
+  {
+    "id": 21,
+    "question": "Sự thật thú vị nào sau đây ĐÚNG về loài Tê giác Sumatra (Sumatran Rhinoceros)?",
+    "answers": [
+      "Chúng có khả năng ngụy trang đổi màu theo môi trường.",
+      "Đây là loài vật có thể nhịn uống nước trong 6 tháng.",
+      "Tê giác Sumatra là họ hàng gần nhất còn sống sót của loài Tê giác lông cừu khổng lồ thời kỷ băng hà.",
+      "Chúng chỉ sinh sản 1 lần duy nhất trong suốt vòng đời."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Chính xác! Loài tê giác nhỏ nhất, nguyên thủy nhất và là loài duy nhất ở châu Á có 2 sừng. Cơ thể chúng được bao phủ bởi một lớp lông tơ dài màu đỏ nâu."
+  },
+  {
+    "id": 22,
+    "question": "Sự thật thú vị nào sau đây ĐÚNG về loài Báo tuyết (Snow Leopard)?",
+    "answers": [
+      "Không giống như sư tử hay hổ, báo tuyết không thể gầm. Chiếc đuôi dày của chúng dài bằng cơ thể và được dùng như một chiếc chăn quàng cổ khi ngủ.",
+      "Chúng chỉ sinh sản 1 lần duy nhất trong suốt vòng đời.",
+      "Chúng có khả năng ngụy trang đổi màu theo môi trường.",
+      "Đây là loài vật có thể nhịn uống nước trong 6 tháng."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Chính xác! Được mệnh danh là 'Bóng ma của dãy núi', sống trên các cao nguyên khắc nghiệt ở Himalaya. Bộ lông xám khói giúp chúng tàng hình hoàn hảo giữa các vách đá."
+  },
+  {
+    "id": 23,
+    "question": "Sự thật thú vị nào sau đây ĐÚNG về loài Báo gấm (Clouded Leopard)?",
+    "answers": [
+      "Chúng chỉ sinh sản 1 lần duy nhất trong suốt vòng đời.",
+      "Đây là loài vật có thể nhịn uống nước trong 6 tháng.",
+      "Chúng có khả năng ngụy trang đổi màu theo môi trường.",
+      "Báo gấm sở hữu tỷ lệ răng nanh so với kích thước hộp sọ lớn nhất trong số tất cả các loài mèo hoang dã hiện đại, tương đương với loài hổ răng kiếm tiền sử."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Chính xác! Sở hữu hoa văn hình nón lớn trông giống như những đám mây viền đen trên lông. Phân bố sâu trong các khu rừng nhiệt đới Đông Nam Á."
+  },
+  {
+    "id": 24,
+    "question": "Sự thật thú vị nào sau đây ĐÚNG về loài Vượn đen má trắng (White-cheeked Gibbon)?",
+    "answers": [
+      "Chúng có khả năng ngụy trang đổi màu theo môi trường.",
+      "Đây là loài vật có thể nhịn uống nước trong 6 tháng.",
+      "Vượn là loài chung thủy, sống theo mô hình gia đình một vợ một chồng suốt đời.",
+      "Chúng chỉ sinh sản 1 lần duy nhất trong suốt vòng đời."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Chính xác! Loài linh trưởng có tiếng hót vang vọng khắp rừng già để khẳng định lãnh thổ. Con đực có màu đen với hai chùm lông trắng ở má, con cái có màu vàng rơm."
+  },
+  {
+    "id": 25,
+    "question": "Sự thật thú vị nào sau đây ĐÚNG về loài Vượn tay trắng (White-handed Gibbon)?",
+    "answers": [
+      "Chúng có khả năng ngụy trang đổi màu theo môi trường.",
+      "Đây là loài vật có thể nhịn uống nước trong 6 tháng.",
+      "Chúng có thể chuyền cành với khoảng cách lên tới 15 mét chỉ trong một cú phóng mình.",
+      "Chúng chỉ sinh sản 1 lần duy nhất trong suốt vòng đời."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Chính xác! Đặc trưng bởi bàn tay và bàn chân màu trắng nổi bật trên nền bộ lông đen hoặc nâu. Chúng không có đuôi giống như các loài vượn khác."
+  },
+  {
+    "id": 26,
+    "question": "Sự thật thú vị nào sau đây ĐÚNG về loài Voọc mũi hếch (Snub-nosed Monkey)?",
+    "answers": [
+      "Chúng chỉ sinh sản 1 lần duy nhất trong suốt vòng đời.",
+      "Chiếc mũi hếch giúp chúng tránh bị đọng nước vào mũi khi trời mưa hoặc khi sống ở vùng cao có độ ẩm cao.",
+      "Chúng có khả năng ngụy trang đổi màu theo môi trường.",
+      "Đây là loài vật có thể nhịn uống nước trong 6 tháng."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Chính xác! Loài linh trưởng có vẻ ngoài độc đáo với chiếc mũi hếch ngược lên trên và đôi môi dày nổi bật. Chúng chịu lạnh rất giỏi."
+  },
+  {
+    "id": 27,
+    "question": "Sự thật thú vị nào sau đây ĐÚNG về loài Voọc quần đùi trắng (Delacour's Langur)?",
+    "answers": [
+      "Đây là loài vật có thể nhịn uống nước trong 6 tháng.",
+      "Đây là một trong những loài linh trưởng nguy cấp nhất thế giới, chỉ còn tồn tại ngoài tự nhiên ở Việt Nam.",
+      "Chúng có khả năng ngụy trang đổi màu theo môi trường.",
+      "Chúng chỉ sinh sản 1 lần duy nhất trong suốt vòng đời."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Chính xác! Loài đặc hữu quý hiếm của Việt Nam, còn được gọi là 'Voọc mông trắng' do dải lông trắng kéo dài từ hông đến đùi như mặc quần đùi."
+  },
+  {
+    "id": 28,
+    "question": "Sự thật thú vị nào sau đây ĐÚNG về loài Voọc chà vá chân nâu (Red-shanked Douc Langur)?",
+    "answers": [
+      "Chúng chỉ sinh sản 1 lần duy nhất trong suốt vòng đời.",
+      "Dạ dày của voọc chà vá được chia thành nhiều ngăn để giúp chúng tiêu hóa lượng lá cây lớn có chứa chất xơ khó tiêu.",
+      "Đây là loài vật có thể nhịn uống nước trong 6 tháng.",
+      "Chúng có khả năng ngụy trang đổi màu theo môi trường."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Chính xác! Được mệnh danh là 'Nữ hoàng linh trưởng' nhờ bộ lông rực rỡ nhiều màu sắc nhất trong các loài khỉ."
+  },
+  {
+    "id": 29,
+    "question": "Sự thật thú vị nào sau đây ĐÚNG về loài Khỉ vàng (Rhesus Macaque)?",
+    "answers": [
+      "Chúng chỉ sinh sản 1 lần duy nhất trong suốt vòng đời.",
+      "Đây là loài vật có thể nhịn uống nước trong 6 tháng.",
+      "Hệ nhóm máu Rh (Rhesus) ở con người được phát hiện lần đầu tiên thông qua các nghiên cứu trên loài khỉ này.",
+      "Chúng có khả năng ngụy trang đổi màu theo môi trường."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Chính xác! Loài khỉ phổ biến nhất châu Á với bộ lông màu vàng nâu. Chúng rất thông minh và có khả năng thích nghi cực cao với nhiều môi trường."
+  },
+  {
+    "id": 30,
+    "question": "Sự thật thú vị nào sau đây ĐÚNG về loài Khỉ mũi vòi (Proboscis Monkey)?",
+    "answers": [
+      "Chiếc mũi khổng lồ của con đực đóng vai trò như một chiếc loa khuếch đại âm thanh để thu hút con cái.",
+      "Đây là loài vật có thể nhịn uống nước trong 6 tháng.",
+      "Chúng có khả năng ngụy trang đổi màu theo môi trường.",
+      "Chúng chỉ sinh sản 1 lần duy nhất trong suốt vòng đời."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Chính xác! Loài khỉ đặc hữu của đảo Borneo với chiếc mũi to và dài bất thường ở con đực. Chiếc bụng của chúng luôn căng tròn như mang bầu."
+  },
+  {
+    "id": 31,
+    "question": "Sự thật thú vị nào sau đây ĐÚNG về loài Khỉ tuyết (Japanese Macaque)?",
+    "answers": [
+      "Khỉ tuyết là loài động vật duy nhất ngoài con người được biết đến là biết rửa sạch thức ăn trước khi ăn.",
+      "Đây là loài vật có thể nhịn uống nước trong 6 tháng.",
+      "Chúng có khả năng ngụy trang đổi màu theo môi trường.",
+      "Chúng chỉ sinh sản 1 lần duy nhất trong suốt vòng đời."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Chính xác! Loài linh trưởng sống ở vùng lạnh nhất thế giới. Chúng có bộ lông rất dày để chống chọi với tuyết trắng của Nhật Bản."
+  },
+  {
+    "id": 32,
+    "question": "Sự thật thú vị nào sau đây ĐÚNG về loài Cu li (Slow Loris)?",
+    "answers": [
+      "Đây là loài linh trưởng duy nhất trên thế giới có nọc độc. Chất độc nằm ở khuỷu tay, được chúng liếm vào răng để tự vệ.",
+      "Đây là loài vật có thể nhịn uống nước trong 6 tháng.",
+      "Chúng có khả năng ngụy trang đổi màu theo môi trường.",
+      "Chúng chỉ sinh sản 1 lần duy nhất trong suốt vòng đời."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Chính xác! Loài linh trưởng nhỏ nhắn với đôi mắt to tròn lóng lánh và những bước di chuyển chậm chạp đặc trưng."
+  },
+  {
+    "id": 33,
+    "question": "Sự thật thú vị nào sau đây ĐÚNG về loài Cá sấu nước mặn (Saltwater Crocodile)?",
+    "answers": [
+      "Chúng có khả năng ngụy trang đổi màu theo môi trường.",
+      "Chúng chỉ sinh sản 1 lần duy nhất trong suốt vòng đời.",
+      "Một con cá sấu nước mặn trưởng thành có thể nhịn ăn trong nhiều tháng nhờ khả năng tích trữ năng lượng cực tốt.",
+      "Đây là loài vật có thể nhịn uống nước trong 6 tháng."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Chính xác! Loài bò sát lớn nhất hành tinh còn tồn tại. Chúng có lực cắn mạnh nhất trong thế giới động vật, đủ sức nghiền nát xương của những con mồi lớn."
+  },
+  {
+    "id": 34,
+    "question": "Sự thật thú vị nào sau đây ĐÚNG về loài Cá sấu Xiêm (Siamese Crocodile)?",
+    "answers": [
+      "Đây là loài vật có thể nhịn uống nước trong 6 tháng.",
+      "Chúng chỉ sinh sản 1 lần duy nhất trong suốt vòng đời.",
+      "Từng được coi là tuyệt chủng ngoài tự nhiên cho đến khi được phát hiện lại vào năm 2000 tại Campuchia.",
+      "Chúng có khả năng ngụy trang đổi màu theo môi trường."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Chính xác! Loài cá sấu nước ngọt đặc hữu của Đông Nam Á, trong đó có Việt Nam. Chúng có kích thước trung bình và vẻ ngoài hiền lành hơn cá sấu nước mặn."
+  },
+  {
+    "id": 35,
+    "question": "Sự thật thú vị nào sau đây ĐÚNG về loài Cá sấu sông Hằng (Gharial)?",
+    "answers": [
+      "Chúng có khả năng ngụy trang đổi màu theo môi trường.",
+      "Chúng chỉ sinh sản 1 lần duy nhất trong suốt vòng đời.",
+      "Đây là loài vật có thể nhịn uống nước trong 6 tháng.",
+      "Con đực trưởng thành có một khối u thịt lớn ở đầu mũi trông giống như một chiếc nồi đất (ghara), dùng để khuếch đại âm thanh."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Chính xác! Đặc trưng với chiếc mõm cực kỳ dài và mỏng với hàng trăm chiếc răng sắc nhọn, chuyên dụng để bắt cá."
+  },
+  {
+    "id": 36,
+    "question": "Sự thật thú vị nào sau đây ĐÚNG về loài Rắn hổ mang chúa (King Cobra)?",
+    "answers": [
+      "Hổ mang chúa là loài rắn duy nhất biết xây tổ để đẻ và bảo vệ trứng cho đến khi nở.",
+      "Chúng có khả năng ngụy trang đổi màu theo môi trường.",
+      "Đây là loài vật có thể nhịn uống nước trong 6 tháng.",
+      "Chúng chỉ sinh sản 1 lần duy nhất trong suốt vòng đời."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Chính xác! Loài rắn độc dài nhất thế giới. Khi đe dọa, chúng có thể nâng cao 1/3 cơ thể lên khỏi mặt đất và xòe mang trông rất oai vệ."
+  },
+  {
+    "id": 37,
+    "question": "Sự thật thú vị nào sau đây ĐÚNG về loài Trăn gấm (Reticulated Python)?",
+    "answers": [
+      "Chúng chỉ sinh sản 1 lần duy nhất trong suốt vòng đời.",
+      "Đây là loài vật có thể nhịn uống nước trong 6 tháng.",
+      "Trăn gấm có thể đạt chiều dài hơn 6 mét, đủ sức nuốt chửng những con mồi lớn như lợn rừng hoặc hươu.",
+      "Chúng có khả năng ngụy trang đổi màu theo môi trường."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Chính xác! Loài trăn dài nhất thế giới với hoa văn hình lưới cực kỳ phức tạp và đẹp mắt trên da."
+  },
+  {
+    "id": 38,
+    "question": "Sự thật thú vị nào sau đây ĐÚNG về loài Kỳ giông khổng lồ Trung Quốc (Chinese Giant Salamander)?",
+    "answers": [
+      "Đây là loài vật có thể nhịn uống nước trong 6 tháng.",
+      "Chúng chỉ sinh sản 1 lần duy nhất trong suốt vòng đời.",
+      "Chúng có khả năng ngụy trang đổi màu theo môi trường.",
+      "Tiếng kêu của chúng nghe giống như tiếng trẻ con khóc, nên ở Trung Quốc chúng còn được gọi là 'Cá trẻ con'."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Chính xác! Loài lưỡng cư lớn nhất thế giới còn tồn tại, được coi là 'hóa thạch sống' vì đã xuất hiện từ hàng triệu năm trước."
+  },
+  {
+    "id": 39,
+    "question": "Sự thật thú vị nào sau đây ĐÚNG về loài Chim Hồng hoàng (Great Hornbill)?",
+    "answers": [
+      "Đây là loài vật có thể nhịn uống nước trong 6 tháng.",
+      "Chúng có khả năng ngụy trang đổi màu theo môi trường.",
+      "Chúng chỉ sinh sản 1 lần duy nhất trong suốt vòng đời.",
+      "Khi bay, tiếng đập cánh của hồng hoàng phát ra âm thanh vù vù rất lớn do cấu tạo lông cánh đặc biệt."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Chính xác! Gây ấn tượng với chiếc mỏ khổng lồ màu vàng tươi cùng cấu trúc sừng cứng cáp trên đỉnh đầu."
+  },
+  {
+    "id": 40,
+    "question": "Sự thật thú vị nào sau đây ĐÚNG về loài Công xanh (Green Peafowl)?",
+    "answers": [
+      "Đây là loài vật có thể nhịn uống nước trong 6 tháng.",
+      "Chúng có khả năng ngụy trang đổi màu theo môi trường.",
+      "Công xanh là loài chim bay rất giỏi dù có bộ đuôi dài vướng víu.",
+      "Chúng chỉ sinh sản 1 lần duy nhất trong suốt vòng đời."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Chính xác! Loài chim có bộ lông lộng lẫy nhất Đông Nam Á. Khác với công Ấn Độ, cả con đực và con cái đều có màu xanh lục rực rỡ."
+  },
+  {
+    "id": 41,
+    "question": "Sự thật thú vị nào sau đây ĐÚNG về loài Công Ấn Độ (Indian Peafowl)?",
+    "answers": [
+      "Trong văn hóa Ấn Độ, chim công được coi là linh vật đại diện cho sự may mắn và sắc đẹp.",
+      "Chúng có khả năng ngụy trang đổi màu theo môi trường.",
+      "Đây là loài vật có thể nhịn uống nước trong 6 tháng.",
+      "Chúng chỉ sinh sản 1 lần duy nhất trong suốt vòng đời."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Chính xác! Biểu tượng quốc gia của Ấn Độ. Con đực nổi bật với bộ ngực màu xanh lam đậm và đuôi dài lấp lánh các 'con mắt' màu sắc."
+  },
+  {
+    "id": 42,
+    "question": "Sự thật thú vị nào sau đây ĐÚNG về loài Sếu đầu đỏ (Sarus Crane)?",
+    "answers": [
+      "Sếu đầu đỏ là biểu tượng của sự chung thủy và trường thọ trong văn hóa Á Đông.",
+      "Chúng có khả năng ngụy trang đổi màu theo môi trường.",
+      "Chúng chỉ sinh sản 1 lần duy nhất trong suốt vòng đời.",
+      "Đây là loài vật có thể nhịn uống nước trong 6 tháng."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Chính xác! Loài chim bay cao nhất thế giới. Chúng có đôi chân dài miên man và mảng da đỏ rực rỡ trên đầu và cổ."
+  },
+  {
+    "id": 43,
+    "question": "Sự thật thú vị nào sau đây ĐÚNG về loài Lạc đà hai bướu (Bactrian Camel)?",
+    "answers": [
+      "Chúng chỉ sinh sản 1 lần duy nhất trong suốt vòng đời.",
+      "Chúng có khả năng ngụy trang đổi màu theo môi trường.",
+      "Lạc đà hai bướu dã sinh có thể uống được nước muối mặn hơn cả nước biển mà không hề hấn gì.",
+      "Đây là loài vật có thể nhịn uống nước trong 6 tháng."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Chính xác! Sở hữu hai chiếc bướu lớn trên lưng để tích trữ mỡ năng lượng, giúp chúng sinh tồn qua những hành trình dài khắc nghiệt."
+  },
+  {
+    "id": 44,
+    "question": "Sự thật thú vị nào sau đây ĐÚNG về loài Bò Tây Tạng (Yak)?",
+    "answers": [
+      "Chúng có khả năng ngụy trang đổi màu theo môi trường.",
+      "Chúng chỉ sinh sản 1 lần duy nhất trong suốt vòng đời.",
+      "Đây là loài vật có thể nhịn uống nước trong 6 tháng.",
+      "Bò Tây Tạng không thể sống tốt ở độ cao thấp vì chúng dễ bị sốc nhiệt khi nhiệt độ trên 15°C."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Chính xác! Loài bò có bộ lông dài nhất thế giới để chống lại cái rét cắt da cắt thịt của vùng cao nguyên Tây Tạng."
+  },
+  {
+    "id": 45,
+    "question": "Sự thật thú vị nào sau đây ĐÚNG về loài Ngựa hoang Przewalski (Przewalski's Horse)?",
+    "answers": [
+      "Khác với ngựa nhà, ngựa Przewalski có 66 nhiễm sắc thể thay vì 64.",
+      "Chúng có khả năng ngụy trang đổi màu theo môi trường.",
+      "Đây là loài vật có thể nhịn uống nước trong 6 tháng.",
+      "Chúng chỉ sinh sản 1 lần duy nhất trong suốt vòng đời."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Chính xác! Loài ngựa hoang thực thụ cuối cùng còn tồn tại trên trái đất, mang vóc dáng thấp đậm và bờm dựng đứng."
+  },
+  {
+    "id": 46,
+    "question": "Sự thật thú vị nào sau đây ĐÚNG về loài Sao la (Saola)?",
+    "answers": [
+      "Rất hiếm khi con người có thể bắt gặp Sao la ngoài tự nhiên, hình ảnh của chúng phần lớn được ghi lại qua bẫy ảnh.",
+      "Chúng chỉ sinh sản 1 lần duy nhất trong suốt vòng đời.",
+      "Đây là loài vật có thể nhịn uống nước trong 6 tháng.",
+      "Chúng có khả năng ngụy trang đổi màu theo môi trường."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Chính xác! Được mệnh danh là 'Kỳ lân châu Á', loài thú quý hiếm bậc nhất thế giới mới được phát hiện lần đầu năm 1992 tại Việt Nam."
+  },
+  {
+    "id": 47,
+    "question": "Sự thật thú vị nào sau đây ĐÚNG về loài Tê tê (Pangolin)?",
+    "answers": [
+      "Tê tê là loài động vật có vú bị săn bắt và buôn lậu nhiều nhất trên thế giới hiện nay.",
+      "Chúng có khả năng ngụy trang đổi màu theo môi trường.",
+      "Chúng chỉ sinh sản 1 lần duy nhất trong suốt vòng đời.",
+      "Đây là loài vật có thể nhịn uống nước trong 6 tháng."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Chính xác! Loài thú có vảy duy nhất trên thế giới. Khi gặp nguy hiểm, chúng cuộn tròn cơ thể lại như một quả cầu bọc giáp sắt."
+  },
+  {
+    "id": 48,
+    "question": "Sự thật thú vị nào sau đây ĐÚNG về loài Heo vòi (Malayan Tapir)?",
+    "answers": [
+      "Chúng chỉ sinh sản 1 lần duy nhất trong suốt vòng đời.",
+      "Đây là loài vật có thể nhịn uống nước trong 6 tháng.",
+      "Chúng có khả năng ngụy trang đổi màu theo môi trường.",
+      "Heo vòi con khi mới sinh có bộ lông lốm đốm giống như trái dưa hấu để tự vệ."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Chính xác! Có hình dáng kỳ lạ với phần thân trước đen, phần mông trắng giúp chúng ngụy trang cực tốt trong bóng tối của rừng già."
+  },
+  {
+    "id": 49,
+    "question": "Sự thật thú vị nào sau đây ĐÚNG về loài Báo hoa mai (Leopard)?",
+    "answers": [
+      "Báo hoa mai có thể kéo một con mồi nặng gấp 3 lần trọng lượng cơ thể mình lên cành cây cao.",
+      "Chúng chỉ sinh sản 1 lần duy nhất trong suốt vòng đời.",
+      "Chúng có khả năng ngụy trang đổi màu theo môi trường.",
+      "Đây là loài vật có thể nhịn uống nước trong 6 tháng."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Chính xác! Bậc thầy leo trèo và ẩn nấp. Báo hoa mai là loài mèo lớn duy nhất thường xuyên kéo con mồi lên cây để tránh bị linh cẩu hay sư tử cướp mất."
+  },
+  {
+    "id": 50,
+    "question": "Sự thật thú vị nào sau đây ĐÚNG về loài Tê giác trắng (White Rhinoceros)?",
+    "answers": [
+      "Chúng có khả năng ngụy trang đổi màu theo môi trường.",
+      "Chúng chỉ sinh sản 1 lần duy nhất trong suốt vòng đời.",
+      "Đây là loài vật có thể nhịn uống nước trong 6 tháng.",
+      "Sừng tê giác được cấu tạo từ keratin, hoàn toàn giống với chất liệu tạo nên móng tay và tóc của con người."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Chính xác! Loài thú ăn cỏ khổng lồ có trọng lượng chỉ sau loài voi. Tên 'trắng' thực chất bắt nguồn từ chữ 'wijd' (rộng) trong tiếng Hà Lan, chỉ chiếc môi rộng để gặm cỏ."
+  },
+  {
+    "id": 51,
+    "question": "Sự thật thú vị nào sau đây ĐÚNG về loài Trâu rừng Châu Phi (Cape Buffalo)?",
+    "answers": [
+      "Chúng có khả năng ngụy trang đổi màu theo môi trường.",
+      "Trâu rừng có trí nhớ rất tốt và nổi tiếng với việc 'trả thù' những kẻ săn mồi đã từng tấn công chúng.",
+      "Đây là loài vật có thể nhịn uống nước trong 6 tháng.",
+      "Chúng chỉ sinh sản 1 lần duy nhất trong suốt vòng đời."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Chính xác! Được mệnh danh là 'Cái chết đen', một trong những loài nguy hiểm nhất châu Phi. Chúng sở hữu cặp sừng cứng cáp tạo thành một tấm khiên trên đỉnh đầu."
+  },
+  {
+    "id": 52,
+    "question": "Sự thật thú vị nào sau đây ĐÚNG về loài Báo săn (Cheetah)?",
+    "answers": [
+      "Chỉ mất 3 giây để một con Cheetah tăng tốc từ 0 lên 95km/h, nhanh hơn cả một chiếc siêu xe thể thao.",
+      "Chúng có khả năng ngụy trang đổi màu theo môi trường.",
+      "Chúng chỉ sinh sản 1 lần duy nhất trong suốt vòng đời.",
+      "Đây là loài vật có thể nhịn uống nước trong 6 tháng."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Chính xác! Loài động vật chạy nhanh nhất thế giới trên cạn. Cơ thể chúng được thiết kế hoàn hảo cho tốc độ với cột sống linh hoạt và móng vuốt không thu lại được để tăng độ bám."
+  },
+  {
+    "id": 53,
+    "question": "Sự thật thú vị nào sau đây ĐÚNG về loài Ngựa vằn (Plains Zebra)?",
+    "answers": [
+      "Chúng có khả năng ngụy trang đổi màu theo môi trường.",
+      "Mỗi con ngựa vằn có một kiểu sọc hoàn toàn duy nhất, giống như dấu vân tay của con người vậy.",
+      "Chúng chỉ sinh sản 1 lần duy nhất trong suốt vòng đời.",
+      "Đây là loài vật có thể nhịn uống nước trong 6 tháng."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Chính xác! Nổi tiếng với những sọc đen trắng đặc trưng. Các nhà khoa học tin rằng sọc vằn giúp chúng gây nhiễu thị giác kẻ thù và xua đuổi côn trùng."
+  },
+  {
+    "id": 54,
+    "question": "Sự thật thú vị nào sau đây ĐÚNG về loài Hà mã (Hippopotamus)?",
+    "answers": [
+      "Chúng chỉ sinh sản 1 lần duy nhất trong suốt vòng đời.",
+      "Da hà mã tiết ra một loại chất lỏng màu đỏ đóng vai trò như kem chống nắng và chất sát khuẩn tự nhiên.",
+      "Chúng có khả năng ngụy trang đổi màu theo môi trường.",
+      "Đây là loài vật có thể nhịn uống nước trong 6 tháng."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Chính xác! Thú khổng lồ dành 16 giờ mỗi ngày ngâm mình dưới nước. Dù trông có vẻ chậm chạp, hà mã là một trong những loài hung dữ và bảo vệ lãnh thổ nhất."
+  },
+  {
+    "id": 55,
+    "question": "Sự thật thú vị nào sau đây ĐÚNG về loài Linh cẩu đốm (Spotted Hyena)?",
+    "answers": [
+      "Chúng có khả năng ngụy trang đổi màu theo môi trường.",
+      "Chúng chỉ sinh sản 1 lần duy nhất trong suốt vòng đời.",
+      "Đây là loài vật có thể nhịn uống nước trong 6 tháng.",
+      "Tiếng kêu đặc trưng của linh cẩu nghe giống như tiếng cười của con người, được dùng để giao tiếp trong đàn."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Chính xác! Loài săn mồi thông minh với cấu trúc xã hội mẫu hệ phức tạp. Chúng sở hữu lực cắn kinh khủng có thể nghiền nát xương voi."
+  },
+  {
+    "id": 56,
+    "question": "Sự thật thú vị nào sau đây ĐÚNG về loài Khỉ đột núi (Mountain Gorilla)?",
+    "answers": [
+      "DNA của khỉ đột giống con người tới 98%. Mỗi cá thể có một hình dạng vân mũi riêng biệt để nhận diện.",
+      "Đây là loài vật có thể nhịn uống nước trong 6 tháng.",
+      "Chúng chỉ sinh sản 1 lần duy nhất trong suốt vòng đời.",
+      "Chúng có khả năng ngụy trang đổi màu theo môi trường."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Chính xác! Loài linh trưởng lớn nhất hành tinh sống tại các vùng núi cao. Những con đực trưởng thành có mảng lông màu bạc ở lưng nên được gọi là 'Silverback'."
+  },
+  {
+    "id": 57,
+    "question": "Sự thật thú vị nào sau đây ĐÚNG về loài Tinh tinh (Chimpanzee)?",
+    "answers": [
+      "Chúng có khả năng ngụy trang đổi màu theo môi trường.",
+      "Tinh tinh có thể học được ngôn ngữ ký hiệu và biết dùng cành cây để 'câu' mối trong tổ ra ăn.",
+      "Đây là loài vật có thể nhịn uống nước trong 6 tháng.",
+      "Chúng chỉ sinh sản 1 lần duy nhất trong suốt vòng đời."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Chính xác! Họ hàng gần gũi nhất của con người. Chúng nổi tiếng với khả năng sử dụng công cụ và có đời sống tình cảm xã hội vô cùng phức tạp."
+  },
+  {
+    "id": 58,
+    "question": "Sự thật thú vị nào sau đây ĐÚNG về loài Khỉ Mandrill (Mandrill)?",
+    "answers": [
+      "Chúng chỉ sinh sản 1 lần duy nhất trong suốt vòng đời.",
+      "Chúng có khả năng ngụy trang đổi màu theo môi trường.",
+      "Màu sắc trên mặt con đực càng rực rỡ thì địa vị của nó trong đàn càng cao.",
+      "Đây là loài vật có thể nhịn uống nước trong 6 tháng."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Chính xác! Loài khỉ có gương mặt sặc sỡ nhất thế giới với hai tông màu đỏ và xanh lam nổi bật. Chúng có kích thước lớn và răng nanh rất dài."
+  },
+  {
+    "id": 59,
+    "question": "Sự thật thú vị nào sau đây ĐÚNG về loài Cáo tai to (Fennec Fox)?",
+    "answers": [
+      "Chúng có khả năng ngụy trang đổi màu theo môi trường.",
+      "Bộ lông của chúng có màu cát để ngụy trang và lòng bàn chân cũng có lông để tránh bị bỏng khi đi trên cát nóng.",
+      "Đây là loài vật có thể nhịn uống nước trong 6 tháng.",
+      "Chúng chỉ sinh sản 1 lần duy nhất trong suốt vòng đời."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Chính xác! Loài cáo nhỏ nhất thế giới sống tại sa mạc Sahara. Đôi tai khổng lồ dài 15cm giúp chúng tản nhiệt và nghe thấy tiếng côn trùng dưới cát."
+  },
+  {
+    "id": 60,
+    "question": "Sự thật thú vị nào sau đây ĐÚNG về loài Chồn Meerkat (Meerkat)?",
+    "answers": [
+      "Quầng thâm quanh mắt meerkat đóng vai trò như một cặp kính râm tự nhiên, giúp chúng nhìn rõ ngay cả dưới ánh nắng chói chang.",
+      "Đây là loài vật có thể nhịn uống nước trong 6 tháng.",
+      "Chúng có khả năng ngụy trang đổi màu theo môi trường.",
+      "Chúng chỉ sinh sản 1 lần duy nhất trong suốt vòng đời."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Chính xác! Những kẻ canh gác tinh nhanh của vùng sa mạc Kalahari. Meerkat nổi tiếng với dáng đứng thẳng bằng hai chân sau để quan sát kẻ thù."
+  },
+  {
+    "id": 61,
+    "question": "Sự thật thú vị nào sau đây ĐÚNG về loài Lạc đà một bướu (Dromedary Camel)?",
+    "answers": [
+      "Một con lạc đà khát nước có thể uống hết 100 lít nước chỉ trong vòng 10 phút.",
+      "Đây là loài vật có thể nhịn uống nước trong 6 tháng.",
+      "Chúng chỉ sinh sản 1 lần duy nhất trong suốt vòng đời.",
+      "Chúng có khả năng ngụy trang đổi màu theo môi trường."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Chính xác! Được gọi là 'con tàu của sa mạc'. Chiếc bướu duy nhất trên lưng chứa mỡ giúp chúng nhịn ăn nhịn uống trong nhiều ngày liền."
+  },
+  {
+    "id": 62,
+    "question": "Sự thật thú vị nào sau đây ĐÚNG về loài Vượn cáo đuôi vòng (Ring-tailed Lemur)?",
+    "answers": [
+      "Trong đàn vượn cáo, con cái luôn là những kẻ nắm quyền điều hành tối cao.",
+      "Chúng có khả năng ngụy trang đổi màu theo môi trường.",
+      "Đây là loài vật có thể nhịn uống nước trong 6 tháng.",
+      "Chúng chỉ sinh sản 1 lần duy nhất trong suốt vòng đời."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Chính xác! Biểu tượng của đảo Madagascar với chiếc đuôi có các khoanh đen trắng xen kẽ. Chúng rất thông minh và có tính xã hội cao."
+  },
+  {
+    "id": 63,
+    "question": "Sự thật thú vị nào sau đây ĐÚNG về loài Cầy Fossa (Fossa)?",
+    "answers": [
+      "Chúng có khả năng ngụy trang đổi màu theo môi trường.",
+      "Đây là loài vật có thể nhịn uống nước trong 6 tháng.",
+      "Mặc dù trông giống mèo, nhưng về mặt di truyền, Fossa lại gần gũi với loài cầy mangut hơn.",
+      "Chúng chỉ sinh sản 1 lần duy nhất trong suốt vòng đời."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Chính xác! Loài thú ăn thịt lớn nhất trên đảo Madagascar. Chúng có hình dáng lai giữa mèo và cầy với chiếc đuôi rất dài để giữ thăng bằng khi leo trèo."
+  },
+  {
+    "id": 64,
+    "question": "Sự thật thú vị nào sau đây ĐÚNG về loài Cá sấu sông Nile (Nile Crocodile)?",
+    "answers": [
+      "Chúng có khả năng ngụy trang đổi màu theo môi trường.",
+      "Lực cắn của cá sấu sông Nile mạnh gấp 10 lần so với loài cá mập trắng vĩ đại.",
+      "Chúng chỉ sinh sản 1 lần duy nhất trong suốt vòng đời.",
+      "Đây là loài vật có thể nhịn uống nước trong 6 tháng."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Chính xác! Loài bò sát ăn thịt lớn nhất châu Phi. Chúng là những kẻ săn mồi rình rập cực kỳ kiên nhẫn dưới làn nước đục của các dòng sông."
+  },
+  {
+    "id": 65,
+    "question": "Sự thật thú vị nào sau đây ĐÚNG về loài Cò mỏ giày (Shoebill)?",
+    "answers": [
+      "Chúng có khả năng ngụy trang đổi màu theo môi trường.",
+      "Âm thanh của cò mỏ giày khi vỗ mỏ nghe giống hệt tiếng súng máy liên thanh.",
+      "Chúng chỉ sinh sản 1 lần duy nhất trong suốt vòng đời.",
+      "Đây là loài vật có thể nhịn uống nước trong 6 tháng."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Chính xác! Loài chim có ngoại hình như bước ra từ thời tiền sử với chiếc mỏ khổng lồ hình chiếc giày và đôi mắt sắc lạnh."
+  },
+  {
+    "id": 66,
+    "question": "Sự thật thú vị nào sau đây ĐÚNG về loài Chim cánh cụt Châu Phi (African Penguin)?",
+    "answers": [
+      "Mỗi con chim cánh cụt có các chấm đen trên ngực hoàn toàn khác biệt, giúp phân biệt cá thể này với cá thể khác.",
+      "Chúng có khả năng ngụy trang đổi màu theo môi trường.",
+      "Đây là loài vật có thể nhịn uống nước trong 6 tháng.",
+      "Chúng chỉ sinh sản 1 lần duy nhất trong suốt vòng đời."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Chính xác! Duy nhất tại vùng biển phía Nam châu Phi. Chúng còn được gọi là 'Cánh cụt lừa' vì tiếng kêu rất giống tiếng lừa bướng bỉnh."
+  },
+  {
+    "id": 67,
+    "question": "Sự thật thú vị nào sau đây ĐÚNG về loài Gấu xám (Grizzly Bear)?",
+    "answers": [
+      "Đây là loài vật có thể nhịn uống nước trong 6 tháng.",
+      "Chúng chỉ sinh sản 1 lần duy nhất trong suốt vòng đời.",
+      "Chúng có khả năng ngụy trang đổi màu theo môi trường.",
+      "Mặc dù to lớn, gấu xám có thể chạy với tốc độ 48km/h, đủ sức bắt kịp các loài thú móng guốc."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Chính xác! Loài gấu hung dữ và to lớn, biểu tượng của sức mạnh hoang dã tại Alaska và Canada. Chúng có chiếc bướu cơ bắp trên vai giúp tạo lực đào bới cực mạnh."
+  },
+  {
+    "id": 68,
+    "question": "Sự thật thú vị nào sau đây ĐÚNG về loài Gấu đen Bắc Mỹ (American Black Bear)?",
+    "answers": [
+      "Chúng có khả năng ngụy trang đổi màu theo môi trường.",
+      "Đây là loài vật có thể nhịn uống nước trong 6 tháng.",
+      "Chúng chỉ sinh sản 1 lần duy nhất trong suốt vòng đời.",
+      "Gấu đen rất thông minh, chúng có thể học cách mở các loại khóa thùng rác hoặc cửa xe ô tô để tìm đồ ăn."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Chính xác! Nhỏ hơn gấu xám, chúng là loài gấu phổ biến nhất lục địa. Bộ lông thường có màu đen nhưng cũng có thể là màu quế hoặc vàng hoe."
+  },
+  {
+    "id": 69,
+    "question": "Sự thật thú vị nào sau đây ĐÚNG về loài Nai sừng tấm (Moose)?",
+    "answers": [
+      "Nai sừng tấm có thể di chuyển bàn chân sau theo góc 360 độ, giúp chúng đá trả kẻ thù từ mọi hướng.",
+      "Đây là loài vật có thể nhịn uống nước trong 6 tháng.",
+      "Chúng có khả năng ngụy trang đổi màu theo môi trường.",
+      "Chúng chỉ sinh sản 1 lần duy nhất trong suốt vòng đời."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Chính xác! Loài lớn nhất trong họ Hươu nai. Con đực sở hữu bộ gạc khổng lồ hình chân chèo có thể rộng tới 1.8 mét."
+  },
+  {
+    "id": 70,
+    "question": "Sự thật thú vị nào sau đây ĐÚNG về loài Bò xạ hương (Muskox)?",
+    "answers": [
+      "Chúng có khả năng ngụy trang đổi màu theo môi trường.",
+      "Chúng chỉ sinh sản 1 lần duy nhất trong suốt vòng đời.",
+      "Đây là loài vật có thể nhịn uống nước trong 6 tháng.",
+      "Bộ lông tơ bên trong của bò xạ hương (gọi là qiviut) ấm gấp 8 lần so với lông cừu."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Chính xác! Loài thú có ngoại hình tiền sử với bộ lông dài chạm đất để chống chọi với cái lạnh thấu xương của vùng cực Bắc."
+  },
+  {
+    "id": 71,
+    "question": "Sự thật thú vị nào sau đây ĐÚNG về loài Báo sư tử (Cougar/Puma)?",
+    "answers": [
+      "Báo sư tử thực chất gần gũi với mèo nhà hơn là sư tử, chúng không thể gầm mà chỉ phát ra tiếng rên hoặc gào.",
+      "Chúng có khả năng ngụy trang đổi màu theo môi trường.",
+      "Đây là loài vật có thể nhịn uống nước trong 6 tháng.",
+      "Chúng chỉ sinh sản 1 lần duy nhất trong suốt vòng đời."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Chính xác! Loài mèo lớn có khả năng thích nghi phi thường, từ các dãy núi tuyết đến đầm lầy nhiệt đới Florida."
+  },
+  {
+    "id": 72,
+    "question": "Sự thật thú vị nào sau đây ĐÚNG về loài Chồn sói (Wolverine)?",
+    "answers": [
+      "Đây là loài vật có thể nhịn uống nước trong 6 tháng.",
+      "Chồn sói có hàm răng cực khỏe, có thể nhai nát những khúc xương đông cứng trong mùa đông Bắc Cực.",
+      "Chúng có khả năng ngụy trang đổi màu theo môi trường.",
+      "Chúng chỉ sinh sản 1 lần duy nhất trong suốt vòng đời."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Chính xác! Tuy kích thước chỉ bằng một chú chó nhỏ nhưng cực kỳ hung dữ và sở hữu sức mạnh kinh ngạc."
+  },
+  {
+    "id": 73,
+    "question": "Sự thật thú vị nào sau đây ĐÚNG về loài Gấu mèo (Raccoon)?",
+    "answers": [
+      "Bàn tay của gấu mèo có hàng ngàn tế bào cảm giác, giúp chúng 'nhìn' thấy vật thể thông qua việc sờ nắn.",
+      "Đây là loài vật có thể nhịn uống nước trong 6 tháng.",
+      "Chúng chỉ sinh sản 1 lần duy nhất trong suốt vòng đời.",
+      "Chúng có khả năng ngụy trang đổi màu theo môi trường."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Chính xác! Được mệnh danh là 'kẻ trộm đeo mặt nạ' vì quầng lông đen quanh mắt và đôi bàn tay khéo léo như người."
+  },
+  {
+    "id": 74,
+    "question": "Sự thật thú vị nào sau đây ĐÚNG về loài Hải ly (Beaver)?",
+    "answers": [
+      "Chúng có khả năng ngụy trang đổi màu theo môi trường.",
+      "Đây là loài vật có thể nhịn uống nước trong 6 tháng.",
+      "Những chiếc đập của hải ly giúp duy trì mực nước ổn định và tạo ra môi trường sống cho rất nhiều loài vật khác.",
+      "Chúng chỉ sinh sản 1 lần duy nhất trong suốt vòng đời."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Chính xác! Được coi là 'Kỹ sư của thiên nhiên'. Chúng có chiếc đuôi bẹt như mái chèo và hàm răng cam rực rỡ không bao giờ ngừng dài ra."
+  },
+  {
+    "id": 75,
+    "question": "Sự thật thú vị nào sau đây ĐÚNG về loài Tuần lộc (Caribou)?",
+    "answers": [
+      "Chúng chỉ sinh sản 1 lần duy nhất trong suốt vòng đời.",
+      "Đây là loài vật có thể nhịn uống nước trong 6 tháng.",
+      "Mắt tuần lộc có khả năng thay đổi màu sắc theo mùa: màu vàng vào mùa hè và màu xanh lam vào mùa đông để nhìn tốt hơn trong ánh sáng yếu.",
+      "Chúng có khả năng ngụy trang đổi màu theo môi trường."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Chính xác! Loài hươu duy nhất mà cả con đực và con cái đều mọc gạc. Chúng sở hữu bộ móng rộng giúp đi trên tuyết dễ dàng."
+  },
+  {
+    "id": 76,
+    "question": "Sự thật thú vị nào sau đây ĐÚNG về loài Cáo Bắc Cực (Arctic Fox)?",
+    "answers": [
+      "Chúng có khả năng ngụy trang đổi màu theo môi trường.",
+      "Cáo Bắc Cực có thể chịu đựng nhiệt độ thấp tới -50°C trước khi cơ thể bắt đầu cảm thấy lạnh.",
+      "Đây là loài vật có thể nhịn uống nước trong 6 tháng.",
+      "Chúng chỉ sinh sản 1 lần duy nhất trong suốt vòng đời."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Chính xác! Loài động vật có khả năng chịu lạnh tuyệt vời nhờ bộ lông cực dày. Màu lông thay đổi từ trắng tinh vào mùa đông sang nâu xám vào mùa hè."
+  },
+  {
+    "id": 77,
+    "question": "Sự thật thú vị nào sau đây ĐÚNG về loài Linh miêu đuôi cộc (Bobcat)?",
+    "answers": [
+      "Chúng có khả năng ngụy trang đổi màu theo môi trường.",
+      "Linh miêu đuôi cộc có thể hạ gục những con mồi lớn gấp 8 lần trọng lượng cơ thể mình.",
+      "Chúng chỉ sinh sản 1 lần duy nhất trong suốt vòng đời.",
+      "Đây là loài vật có thể nhịn uống nước trong 6 tháng."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Chính xác! Loài mèo hoang nhỏ với đôi tai có chỏm lông đặc trưng và chiếc đuôi ngắn cụn."
+  },
+  {
+    "id": 78,
+    "question": "Sự thật thú vị nào sau đây ĐÚNG về loài Cáo đỏ (Red Fox)?",
+    "answers": [
+      "Chúng chỉ sinh sản 1 lần duy nhất trong suốt vòng đời.",
+      "Chúng có khả năng ngụy trang đổi màu theo môi trường.",
+      "Đây là loài vật có thể nhịn uống nước trong 6 tháng.",
+      "Đuôi của cáo đỏ chiếm tới 1/3 chiều dài cơ thể, giúp chúng giữ thăng bằng và giữ ấm khi ngủ."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Chính xác! Phổ biến rộng khắp Bắc Mỹ, từ rừng rậm đến các thành phố. Chúng nổi tiếng với sự tinh ranh và thông minh."
+  },
+  {
+    "id": 79,
+    "question": "Sự thật thú vị nào sau đây ĐÚNG về loài Sóc xám (Gray Squirrel)?",
+    "answers": [
+      "Đây là loài vật có thể nhịn uống nước trong 6 tháng.",
+      "Chúng chỉ sinh sản 1 lần duy nhất trong suốt vòng đời.",
+      "Chúng có khả năng ngụy trang đổi màu theo môi trường.",
+      "Nhờ trí nhớ kém mà sóc thường quên chỗ giấu hạt, vô tình giúp hàng ngàn cây xanh mới mọc lên mỗi năm."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Chính xác! Loài vật cực kỳ quen thuộc trong các công viên Bắc Mỹ. Chúng có chiếc đuôi xù lớn đóng vai trò như chiếc dù khi nhảy."
+  },
+  {
+    "id": 80,
+    "question": "Sự thật thú vị nào sau đây ĐÚNG về loài Đại bàng đầu trắng (Bald Eagle)?",
+    "answers": [
+      "Chúng có khả năng ngụy trang đổi màu theo môi trường.",
+      "Đây là loài vật có thể nhịn uống nước trong 6 tháng.",
+      "Sau khi từng gần như tuyệt chủng vào thập niên 70, đại bàng đầu trắng đã có sự phục hồi ngoạn mục nhờ các nỗ lực bảo tồn.",
+      "Chúng chỉ sinh sản 1 lần duy nhất trong suốt vòng đời."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Chính xác! Quốc điểu của Hoa Kỳ, biểu tượng cho sự tự do. Chúng có bộ lông nâu sẫm tương phản với phần đầu và đuôi trắng muốt."
+  },
+  {
+    "id": 81,
+    "question": "Sự thật thú vị nào sau đây ĐÚNG về loài Gà tây hoang dã (Wild Turkey)?",
+    "answers": [
+      "Chúng có khả năng ngụy trang đổi màu theo môi trường.",
+      "Đây là loài vật có thể nhịn uống nước trong 6 tháng.",
+      "Benjamin Franklin từng đề nghị gà tây làm quốc điểu của Mỹ thay vì đại bàng vì cho rằng chúng thông minh hơn.",
+      "Chúng chỉ sinh sản 1 lần duy nhất trong suốt vòng đời."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Chính xác! Loài chim lớn bản địa của Bắc Mỹ. Con đực có bộ lông óng ánh và phần yếm thịt đỏ rực dưới cổ."
+  },
+  {
+    "id": 82,
+    "question": "Sự thật thú vị nào sau đây ĐÚNG về loài Cá sấu Mỹ (American Alligator)?",
+    "answers": [
+      "Đây là loài vật có thể nhịn uống nước trong 6 tháng.",
+      "Cá sấu Mỹ có thể tồn tại trong nước đóng băng bằng cách thò mũi lên trên mặt băng để thở.",
+      "Chúng có khả năng ngụy trang đổi màu theo môi trường.",
+      "Chúng chỉ sinh sản 1 lần duy nhất trong suốt vòng đời."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Chính xác! Sống phổ biến ở đầm lầy phía Đông Nam Hoa Kỳ. Đặc trưng với chiếc mõm rộng và sẫm màu."
+  },
+  {
+    "id": 83,
+    "question": "Sự thật thú vị nào sau đây ĐÚNG về loài Rắn chuông (Rattlesnake)?",
+    "answers": [
+      "Mỗi lần rắn lột da, đuôi chúng sẽ mọc thêm một nấc 'chuông' mới.",
+      "Đây là loài vật có thể nhịn uống nước trong 6 tháng.",
+      "Chúng có khả năng ngụy trang đổi màu theo môi trường.",
+      "Chúng chỉ sinh sản 1 lần duy nhất trong suốt vòng đời."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Chính xác! Loài rắn độc nổi tiếng với bộ phận phát ra tiếng động 'rè rè' ở cuối đuôi để cảnh báo kẻ thù."
+  },
+  {
+    "id": 84,
+    "question": "Sự thật thú vị nào sau đây ĐÚNG về loài Khỉ nhện (Spider Monkey)?",
+    "answers": [
+      "Đây là loài vật có thể nhịn uống nước trong 6 tháng.",
+      "Chúng có khả năng ngụy trang đổi màu theo môi trường.",
+      "Đuôi của khỉ nhện khỏe đến mức có thể đỡ toàn bộ trọng lượng cơ thể chúng khi đang treo ngược để hái quả.",
+      "Chúng chỉ sinh sản 1 lần duy nhất trong suốt vòng đời."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Chính xác! Loài linh trưởng có cánh tay và đôi chân dài mảnh khảnh, đặc biệt là chiếc đuôi có khả năng cầm nắm như một cánh tay thứ năm."
+  },
+  {
+    "id": 85,
+    "question": "Sự thật thú vị nào sau đây ĐÚNG về loài Lười ba ngón (Three-toed Sloth)?",
+    "answers": [
+      "Đây là loài vật có thể nhịn uống nước trong 6 tháng.",
+      "Cơ bắp của lười chỉ bằng 1/4 so với các loài thú cùng kích thước, nhưng chúng có thể nhịn thở dưới nước tới 40 phút.",
+      "Chúng có khả năng ngụy trang đổi màu theo môi trường.",
+      "Chúng chỉ sinh sản 1 lần duy nhất trong suốt vòng đời."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Chính xác! Loài động vật chậm chạp nhất thế giới. Cơ thể chúng là một hệ sinh thái nhỏ với tảo xanh mọc ngay trên bộ lông để ngụy trang."
+  },
+  {
+    "id": 86,
+    "question": "Sự thật thú vị nào sau đây ĐÚNG về loài Chuột lang nước (Capybara)?",
+    "answers": [
+      "Chúng có khả năng ngụy trang đổi màu theo môi trường.",
+      "Chúng chỉ sinh sản 1 lần duy nhất trong suốt vòng đời.",
+      "Chuột lang nước được mệnh danh là 'cái ghế của thiên nhiên' vì các loài chim, khỉ và thậm chí cả cá sấu thường xuyên ngồi lên lưng chúng.",
+      "Đây là loài vật có thể nhịn uống nước trong 6 tháng."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Chính xác! Loài động vật gặm nhấm lớn nhất thế giới với tính cách vô cùng điềm tĩnh và thân thiện với các loài vật khác."
+  },
+  {
+    "id": 87,
+    "question": "Sự thật thú vị nào sau đây ĐÚNG về loài Lạc đà Llama (Llama)?",
+    "answers": [
+      "Chúng có khả năng ngụy trang đổi màu theo môi trường.",
+      "Đây là loài vật có thể nhịn uống nước trong 6 tháng.",
+      "Khi bị đe dọa hoặc tức giận, Llama sẽ phun nước bọt (thực chất là dịch dạ dày) vào đối phương với độ chính xác cực cao.",
+      "Chúng chỉ sinh sản 1 lần duy nhất trong suốt vòng đời."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Chính xác! Loài thú móng guốc đặc trưng của dãy núi Andes. Chúng có bộ lông dày ấm áp và đôi tai hình lưỡi liềm đặc trưng."
+  },
+  {
+    "id": 88,
+    "question": "Sự thật thú vị nào sau đây ĐÚNG về loài Thú ăn kiến khổng lồ (Giant Anteater)?",
+    "answers": [
+      "Đây là loài vật có thể nhịn uống nước trong 6 tháng.",
+      "Lưỡi của thú ăn kiến có thể dài tới 60cm và có thể thò ra thụt vào tới 150 lần mỗi phút.",
+      "Chúng chỉ sinh sản 1 lần duy nhất trong suốt vòng đời.",
+      "Chúng có khả năng ngụy trang đổi màu theo môi trường."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Chính xác! Loài thú kỳ lạ không có răng nhưng sở hữu chiếc mõm dài như một chiếc ống hút và bộ móng vuốt sắc lẹm."
+  },
+  {
+    "id": 89,
+    "question": "Sự thật thú vị nào sau đây ĐÚNG về loài Cá heo hồng Amazon (Pink River Dolphin)?",
+    "answers": [
+      "Chúng chỉ sinh sản 1 lần duy nhất trong suốt vòng đời.",
+      "Đây là loài vật có thể nhịn uống nước trong 6 tháng.",
+      "Chúng có khả năng ngụy trang đổi màu theo môi trường.",
+      "Màu hồng của chúng đậm dần theo độ tuổi và mức độ hoạt động, con đực thường có màu hồng rực rỡ hơn con cái."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Chính xác! Loài cá heo nước ngọt lớn nhất thế giới với màu da hồng tự nhiên vô cùng độc đáo."
+  },
+  {
+    "id": 90,
+    "question": "Sự thật thú vị nào sau đây ĐÚNG về loài Chim Toucan (Toco Toucan)?",
+    "answers": [
+      "Chúng có khả năng ngụy trang đổi màu theo môi trường.",
+      "Đây là loài vật có thể nhịn uống nước trong 6 tháng.",
+      "Dù mỏ rất lớn nhưng Toucan chủ yếu ăn trái cây nhỏ, chúng tung trái cây lên không trung rồi khéo léo đớp lấy.",
+      "Chúng chỉ sinh sản 1 lần duy nhất trong suốt vòng đời."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Chính xác! Gây ấn tượng với chiếc mỏ khổng lồ màu cam rực rỡ, chiếm tới 1/3 chiều dài cơ thể nhưng lại rất nhẹ vì cấu trúc rỗng."
+  },
+  {
+    "id": 91,
+    "question": "Sự thật thú vị nào sau đây ĐÚNG về loài Vẹt đuôi dài Macaw (Scarlet Macaw)?",
+    "answers": [
+      "Chúng có khả năng ngụy trang đổi màu theo môi trường.",
+      "Đây là loài vật có thể nhịn uống nước trong 6 tháng.",
+      "Vẹt Macaw có chiếc mỏ cực khỏe, có thể nghiền nát những loại hạt cứng nhất như hạt dẻ Brazil.",
+      "Chúng chỉ sinh sản 1 lần duy nhất trong suốt vòng đời."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Chính xác! Một trong những loài vẹt sặc sỡ và thông minh nhất thế giới với bộ lông đỏ, vàng và xanh lam rực rỡ."
+  },
+  {
+    "id": 92,
+    "question": "Sự thật thú vị nào sau đây ĐÚNG về loài Thần ưng Andes (Andean Condor)?",
+    "answers": [
+      "Chúng có khả năng ngụy trang đổi màu theo môi trường.",
+      "Chúng chỉ sinh sản 1 lần duy nhất trong suốt vòng đời.",
+      "Thần ưng Andes có thể sống tới 70 năm, là một trong những loài chim có tuổi thọ cao nhất thế giới.",
+      "Đây là loài vật có thể nhịn uống nước trong 6 tháng."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Chính xác! Loài chim săn mồi lớn nhất thế giới với sải cánh khổng lồ lên tới 3.3 mét. Chúng là biểu tượng của sự tự do trên dãy Andes."
+  },
+  {
+    "id": 93,
+    "question": "Sự thật thú vị nào sau đây ĐÚNG về loài Trăn Anaconda xanh (Green Anaconda)?",
+    "answers": [
+      "Chúng có khả năng ngụy trang đổi màu theo môi trường.",
+      "Chúng chỉ sinh sản 1 lần duy nhất trong suốt vòng đời.",
+      "Mắt và lỗ mũi của Anaconda nằm ở đỉnh đầu, cho phép chúng thở và quan sát trong khi phần lớn cơ thể chìm dưới nước.",
+      "Đây là loài vật có thể nhịn uống nước trong 6 tháng."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Chính xác! Loài trăn nặng nhất thế giới. Chúng có thân hình khổng lồ và sức mạnh siết mồi đáng sợ dưới làn nước Amazon."
+  },
+  {
+    "id": 94,
+    "question": "Sự thật thú vị nào sau đây ĐÚNG về loài Cá sấu Caiman đen (Black Caiman)?",
+    "answers": [
+      "Cá sấu Caiman đen đóng vai trò cực kỳ quan trọng trong việc cân bằng dân số các loài cá trong hệ sinh thái sông.",
+      "Chúng có khả năng ngụy trang đổi màu theo môi trường.",
+      "Chúng chỉ sinh sản 1 lần duy nhất trong suốt vòng đời.",
+      "Đây là loài vật có thể nhịn uống nước trong 6 tháng."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Chính xác! Loài cá sấu lớn nhất vùng Amazon với bộ da màu đen sẫm giúp chúng ngụy trang hoàn hảo và hấp thụ nhiệt tốt hơn."
+  },
+  {
+    "id": 95,
+    "question": "Sự thật thú vị nào sau đây ĐÚNG về loài Bò Wisent (European Bison)?",
+    "answers": [
+      "Bò Wisent là một trong những biểu tượng quốc gia của Ba Lan và Belarus, đại diện cho sức mạnh bảo tồn thiên nhiên.",
+      "Đây là loài vật có thể nhịn uống nước trong 6 tháng.",
+      "Chúng có khả năng ngụy trang đổi màu theo môi trường.",
+      "Chúng chỉ sinh sản 1 lần duy nhất trong suốt vòng đời."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Chính xác! Loài động vật trên cạn lớn nhất và nặng nhất Châu Âu. Chúng từng gần như tuyệt chủng nhưng đã được phục hồi thành công trong các khu rừng già Ba Lan."
+  },
+  {
+    "id": 96,
+    "question": "Sự thật thú vị nào sau đây ĐÚNG về loài Linh miêu Á-Âu (Eurasian Lynx)?",
+    "answers": [
+      "Đây là loài vật có thể nhịn uống nước trong 6 tháng.",
+      "Bàn chân của linh miêu rất rộng và có nhiều lông, đóng vai trò như một chiếc giày đi tuyết tự nhiên giúp chúng không bị lún khi săn mồi.",
+      "Chúng chỉ sinh sản 1 lần duy nhất trong suốt vòng đời.",
+      "Chúng có khả năng ngụy trang đổi màu theo môi trường."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Chính xác! Loài mèo hoang lớn nhất Châu Âu với đôi tai có chỏm lông đen đặc trưng và bộ lông đốm giúp ngụy trang hoàn hảo."
+  },
+  {
+    "id": 97,
+    "question": "Sự thật thú vị nào sau đây ĐÚNG về loài Gấu nâu (Brown Bear)?",
+    "answers": [
+      "Đây là loài vật có thể nhịn uống nước trong 6 tháng.",
+      "Chúng có khả năng ngụy trang đổi màu theo môi trường.",
+      "Dù có vẻ ngoài nặng nề, gấu nâu có thể chạy với tốc độ lên tới 50km/h, nhanh hơn cả các vận động viên điền kinh thế giới.",
+      "Chúng chỉ sinh sản 1 lần duy nhất trong suốt vòng đời."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Chính xác! Loài thú ăn thịt lớn nhất lục địa già, phân bố chủ yếu ở Bắc Âu và dãy núi Alps. Chúng có một cái bướu cơ bắp trên vai giúp tạo lực đào bới."
+  },
+  {
+    "id": 98,
+    "question": "Sự thật thú vị nào sau đây ĐÚNG về loài Dê núi Alpine (Alpine Ibex)?",
+    "answers": [
+      "Dê núi Alpine có khả năng leo lên những vách đập nước gần như thẳng đứng chỉ để liếm các khoáng chất bám trên đá.",
+      "Chúng có khả năng ngụy trang đổi màu theo môi trường.",
+      "Đây là loài vật có thể nhịn uống nước trong 6 tháng.",
+      "Chúng chỉ sinh sản 1 lần duy nhất trong suốt vòng đời."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Chính xác! Bậc thầy leo trèo trên các vách đá dựng đứng của dãy Alps. Con đực sở hữu cặp sừng cong dài và chắc khỏe vô cùng ấn tượng."
+  },
+  {
+    "id": 99,
+    "question": "Sự thật thú vị nào sau đây ĐÚNG về loài Hươu đỏ (Red Deer)?",
+    "answers": [
+      "Gạc hươu đỏ được cấu tạo từ xương và rụng đi mỗi năm một lần, sau đó mọc lại lớn hơn và nhiều nhánh hơn.",
+      "Chúng chỉ sinh sản 1 lần duy nhất trong suốt vòng đời.",
+      "Đây là loài vật có thể nhịn uống nước trong 6 tháng.",
+      "Chúng có khả năng ngụy trang đổi màu theo môi trường."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Chính xác! Một trong những loài hươu lớn nhất thế giới, biểu tượng cho sự quý tộc và hoang dã của các khu rừng Châu Âu."
+  },
+  {
+    "id": 100,
+    "question": "Sự thật thú vị nào sau đây ĐÚNG về loài Nhím gai Châu Âu (European Hedgehog)?",
+    "answers": [
+      "Khi gặp nguy hiểm, nhím sẽ cuộn tròn thành một quả cầu gai khiến kẻ thù không thể tấn công được vào phần bụng mềm.",
+      "Chúng có khả năng ngụy trang đổi màu theo môi trường.",
+      "Chúng chỉ sinh sản 1 lần duy nhất trong suốt vòng đời.",
+      "Đây là loài vật có thể nhịn uống nước trong 6 tháng."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Chính xác! Loài vật nhỏ bé quen thuộc trong các khu vườn và rừng thưa Châu Âu với lớp 'áo giáp' gồm hàng ngàn chiếc gai sắc nhọn."
+  },
+  {
+    "id": 101,
+    "question": "Sự thật thú vị nào sau đây ĐÚNG về loài Hải âu rụt cổ / Vẹt biển (Atlantic Puffin)?",
+    "answers": [
+      "Chúng có khả năng ngụy trang đổi màu theo môi trường.",
+      "Đây là loài vật có thể nhịn uống nước trong 6 tháng.",
+      "Chiếc mỏ của chúng chỉ rực rỡ sắc màu vào mùa sinh sản, sau đó sẽ rụng lớp vỏ màu và trở nên xám xịt hơn vào mùa đông.",
+      "Chúng chỉ sinh sản 1 lần duy nhất trong suốt vòng đời."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Chính xác! Loài chim biển cực kỳ đáng yêu với chiếc mỏ rực rỡ sắc màu, thường được gọi là 'chú hề của đại dương'."
+  },
+  {
+    "id": 102,
+    "question": "Sự thật thú vị nào sau đây ĐÚNG về loài Đại bàng vàng (Golden Eagle)?",
+    "answers": [
+      "Chúng chỉ sinh sản 1 lần duy nhất trong suốt vòng đời.",
+      "Đại bàng vàng là những phi công tài ba, chúng có thể lao xuống mục tiêu với tốc độ lên tới 240-320km/h.",
+      "Chúng có khả năng ngụy trang đổi màu theo môi trường.",
+      "Đây là loài vật có thể nhịn uống nước trong 6 tháng."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Chính xác! Một trong những loài chim săn mồi mạnh mẽ và oai vệ nhất, thường được tìm thấy trên các vùng núi cao Châu Âu."
+  },
+  {
+    "id": 103,
+    "question": "Sự thật thú vị nào sau đây ĐÚNG về loài Kỳ giông lửa (Fire Salamander)?",
+    "answers": [
+      "Chúng chỉ sinh sản 1 lần duy nhất trong suốt vòng đời.",
+      "Kỳ giông lửa có tuổi thọ rất cao, một cá thể sống trong môi trường nuôi nhốt được ghi nhận đã sống tới 50 năm.",
+      "Chúng có khả năng ngụy trang đổi màu theo môi trường.",
+      "Đây là loài vật có thể nhịn uống nước trong 6 tháng."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Chính xác! Loài lưỡng cư có vẻ ngoài nổi bật với những vệt màu vàng rực rỡ trên nền da đen tuyền, một lời cảnh báo về chất độc."
+  },
+  {
+    "id": 104,
+    "question": "Sự thật thú vị nào sau đây ĐÚNG về loài Gấu Koala (Koala)?",
+    "answers": [
+      "Koala hầu như không bao giờ uống nước; chúng lấy toàn bộ lượng nước cần thiết từ việc ăn lá cây bạch đàn.",
+      "Chúng có khả năng ngụy trang đổi màu theo môi trường.",
+      "Chúng chỉ sinh sản 1 lần duy nhất trong suốt vòng đời.",
+      "Đây là loài vật có thể nhịn uống nước trong 6 tháng."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Chính xác! Biểu tượng đáng yêu của nước Úc. Koala thực chất không phải là gấu mà là một loài thú có túi sống trên cây."
+  },
+  {
+    "id": 105,
+    "question": "Sự thật thú vị nào sau đây ĐÚNG về loài Thú mỏ vịt (Platypus)?",
+    "answers": [
+      "Chúng có khả năng ngụy trang đổi màu theo môi trường.",
+      "Đây là loài vật có thể nhịn uống nước trong 6 tháng.",
+      "Thú mỏ vịt đực có một chiếc cựa ở chân sau có chứa nọc độc đủ để gây đau đớn dữ dội cho con người.",
+      "Chúng chỉ sinh sản 1 lần duy nhất trong suốt vòng đời."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Chính xác! Loài động vật kỳ lạ bậc nhất thế giới với mỏ như vịt, đuôi như hải ly và chân có màng nhưng lại có lông thú."
+  },
+  {
+    "id": 106,
+    "question": "Sự thật thú vị nào sau đây ĐÚNG về loài Quỷ Tasmania (Tasmanian Devil)?",
+    "answers": [
+      "Quỷ Tasmania sở hữu lực cắn mạnh nhất tính theo tỷ lệ kích thước cơ thể trong số các loài thú có vú trên cạn.",
+      "Chúng có khả năng ngụy trang đổi màu theo môi trường.",
+      "Đây là loài vật có thể nhịn uống nước trong 6 tháng.",
+      "Chúng chỉ sinh sản 1 lần duy nhất trong suốt vòng đời."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Chính xác! Loài thú có túi ăn thịt lớn nhất thế giới hiện nay, chỉ còn tìm thấy trên đảo Tasmania. Chúng có bộ hàm cực khỏe."
+  },
+  {
+    "id": 107,
+    "question": "Sự thật thú vị nào sau đây ĐÚNG về loài Chuột túi Quokka (Quokka)?",
+    "answers": [
+      "Chúng có khả năng ngụy trang đổi màu theo môi trường.",
+      "Chúng chỉ sinh sản 1 lần duy nhất trong suốt vòng đời.",
+      "Dù trông nhỏ nhắn, Quokka có thể leo lên cây cao tới 2 mét để tìm kiếm thức ăn là lá và quả cây.",
+      "Đây là loài vật có thể nhịn uống nước trong 6 tháng."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Chính xác! Được mệnh danh là 'loài vật hạnh phúc nhất thế giới' nhờ khuôn mặt luôn trông như đang mỉm cười thân thiện."
+  },
+  {
+    "id": 108,
+    "question": "Sự thật thú vị nào sau đây ĐÚNG về loài Gấu túi Wombat (Wombat)?",
+    "answers": [
+      "Wombat là loài động vật duy nhất trên thế giới có chất thải (phân) hình khối lập phương hoàn hảo.",
+      "Chúng có khả năng ngụy trang đổi màu theo môi trường.",
+      "Đây là loài vật có thể nhịn uống nước trong 6 tháng.",
+      "Chúng chỉ sinh sản 1 lần duy nhất trong suốt vòng đời."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Chính xác! Loài thú có túi trông giống như một chú lợn nhỏ béo múp míp với đôi chân ngắn và chiếc mũi lớn."
+  },
+  {
+    "id": 109,
+    "question": "Sự thật thú vị nào sau đây ĐÚNG về loài Thú lông nhím (Echidna)?",
+    "answers": [
+      "Khi gặp nguy hiểm, thú lông nhím sẽ cuộn tròn lại hoặc đào đất thật nhanh để che giấu phần bụng mềm yếu dưới lòng đất.",
+      "Đây là loài vật có thể nhịn uống nước trong 6 tháng.",
+      "Chúng có khả năng ngụy trang đổi màu theo môi trường.",
+      "Chúng chỉ sinh sản 1 lần duy nhất trong suốt vòng đời."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Chính xác! Giống như thú mỏ vịt, đây là loài thú đẻ trứng hiếm hoi. Cơ thể chúng được bao phủ bởi những chiếc gai sắc nhọn để tự vệ."
+  },
+  {
+    "id": 110,
+    "question": "Sự thật thú vị nào sau đây ĐÚNG về loài Chim Đà điểu Châu Úc (Emu)?",
+    "answers": [
+      "Chim Emu không thể đi giật lùi, điều này khiến chúng trở thành biểu tượng cho sự tiến lên không ngừng của nước Úc.",
+      "Chúng có khả năng ngụy trang đổi màu theo môi trường.",
+      "Chúng chỉ sinh sản 1 lần duy nhất trong suốt vòng đời.",
+      "Đây là loài vật có thể nhịn uống nước trong 6 tháng."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Chính xác! Loài chim lớn thứ hai thế giới sau đà điểu châu Phi. Chúng có đôi chân cực khỏe giúp chạy với tốc độ lên tới 50km/h."
+  },
+  {
+    "id": 111,
+    "question": "Sự thật thú vị nào sau đây ĐÚNG về loài Chim bói cá Kookaburra (Laughing Kookaburra)?",
+    "answers": [
+      "Dù thuộc họ bói cá nhưng Kookaburra lại sống trên cạn và săn mồi là rắn, thằn lằn hoặc côn trùng lớn thay vì cá.",
+      "Chúng chỉ sinh sản 1 lần duy nhất trong suốt vòng đời.",
+      "Chúng có khả năng ngụy trang đổi màu theo môi trường.",
+      "Đây là loài vật có thể nhịn uống nước trong 6 tháng."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Chính xác! Loài chim nổi tiếng nhất Châu Úc với tiếng kêu nghe hệt như tiếng cười sảng khoái của con người."
+  },
+  {
+    "id": 112,
+    "question": "Sự thật thú vị nào sau đây ĐÚNG về loài Rồng râu (Bearded Dragon)?",
+    "answers": [
+      "Chúng chỉ sinh sản 1 lần duy nhất trong suốt vòng đời.",
+      "Đây là loài vật có thể nhịn uống nước trong 6 tháng.",
+      "Rồng râu thường 'vẫy tay' (nâng một chân trước lên) để giao tiếp và thể hiện sự phục tùng với những cá thể lớn hơn.",
+      "Chúng có khả năng ngụy trang đổi màu theo môi trường."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Chính xác! Loài thằn lằn có phần gai bao quanh cổ trông giống như một chùm râu lớn khi chúng phình to để đe dọa kẻ thù."
+  },
+  {
+    "id": 113,
+    "question": "Sự thật thú vị nào sau đây ĐÚNG về loài Chim cánh cụt Hoàng đế (Emperor Penguin)?",
+    "answers": [
+      "Cánh cụt Hoàng đế có thể lặn xuống độ cao 535 mét dưới mặt nước biển và nhịn thở được tới 18 phút.",
+      "Chúng chỉ sinh sản 1 lần duy nhất trong suốt vòng đời.",
+      "Đây là loài vật có thể nhịn uống nước trong 6 tháng.",
+      "Chúng có khả năng ngụy trang đổi màu theo môi trường."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Chính xác! Loài chim cánh cụt lớn nhất và nặng nhất thế giới. Chúng là biểu tượng sống động nhất của vùng băng giá Nam Cực."
+  },
+  {
+    "id": 114,
+    "question": "Sự thật thú vị nào sau đây ĐÚNG về loài Chim cánh cụt Adélie (Adélie Penguin)?",
+    "answers": [
+      "Chúng có khả năng ngụy trang đổi màu theo môi trường.",
+      "Đây là loài vật có thể nhịn uống nước trong 6 tháng.",
+      "Cánh cụt Adélie nổi tiếng với việc 'ăn trộm' đá từ tổ của hàng xóm để bồi đắp cho tổ của mình.",
+      "Chúng chỉ sinh sản 1 lần duy nhất trong suốt vòng đời."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Chính xác! Loài cánh cụt nhỏ nhắn với 'vòng tròn' trắng quanh mắt đặc trưng. Chúng rất tinh nghịch và đôi khi khá hung hăng bảo vệ tổ."
+  },
+  {
+    "id": 115,
+    "question": "Sự thật thú vị nào sau đây ĐÚNG về loài Chim đại hải âu Nam Cực (South Polar Skua)?",
+    "answers": [
+      "Skua là loài chim bay xa nhất, chúng thường xuyên thực hiện các chuyến bay xuyên lục địa từ cực này sang cực kia.",
+      "Chúng có khả năng ngụy trang đổi màu theo môi trường.",
+      "Chúng chỉ sinh sản 1 lần duy nhất trong suốt vòng đời.",
+      "Đây là loài vật có thể nhịn uống nước trong 6 tháng."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Chính xác! Loài chim săn mồi cơ hội và mạnh mẽ của vùng cực. Chúng có sải cánh rộng và khả năng bay lượn bền bỉ trong bão tuyết."
+  },
+  {
+    "id": 116,
+    "question": "Sự thật thú vị nào sau đây ĐÚNG về loài Cá voi xanh (Blue Whale)?",
+    "answers": [
+      "Đây là loài vật có thể nhịn uống nước trong 6 tháng.",
+      "Chúng chỉ sinh sản 1 lần duy nhất trong suốt vòng đời.",
+      "Chúng có khả năng ngụy trang đổi màu theo môi trường.",
+      "Tiếng gọi của cá voi xanh có thể đạt mức 188 decibel, to hơn cả động cơ máy bay phản lực và có thể nghe thấy từ khoảng cách 1.600km."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Chính xác! Động vật lớn nhất từng tồn tại trên Trái Đất. Trái tim của nó to bằng một chiếc xe hơi và lưỡi của nó nặng bằng một con voi."
+  },
+  {
+    "id": 117,
+    "question": "Sự thật thú vị nào sau đây ĐÚNG về loài Cá voi sát thủ (Orca/Killer Whale)?",
+    "answers": [
+      "Đây là loài vật có thể nhịn uống nước trong 6 tháng.",
+      "Chúng có khả năng ngụy trang đổi màu theo môi trường.",
+      "Mỗi đàn Orca có một 'ngôn ngữ' giao tiếp và các chiến thuật săn mồi riêng biệt được truyền dạy qua nhiều thế hệ.",
+      "Chúng chỉ sinh sản 1 lần duy nhất trong suốt vòng đời."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Chính xác! Kẻ săn mồi đỉnh cao của đại dương với trí thông minh vượt trội và khả năng phối hợp săn mồi theo bầy đàn cực kỳ điệu nghệ."
+  },
+  {
+    "id": 118,
+    "question": "Sự thật thú vị nào sau đây ĐÚNG về loài Hải cẩu báo (Leopard Seal)?",
+    "answers": [
+      "Đây là loài vật có thể nhịn uống nước trong 6 tháng.",
+      "Chúng có khả năng ngụy trang đổi màu theo môi trường.",
+      "Dù là kẻ săn mồi đáng sợ, báo biển đôi khi rất tò mò và đã từng có trường hợp chúng cố gắng 'mớm thức ăn' cho các nhà nhiếp ảnh dưới nước.",
+      "Chúng chỉ sinh sản 1 lần duy nhất trong suốt vòng đời."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Chính xác! Kẻ săn mồi hung dữ thứ hai ở Nam Cực (sau cá voi sát thủ). Chúng có thân hình thuôn dài và những đốm đen giống như loài báo trên cạn."
+  },
+  {
+    "id": 119,
+    "question": "Sự thật thú vị nào sau đây ĐÚNG về loài Hải tượng phương Nam (Southern Elephant Seal)?",
+    "answers": [
+      "Đây là loài vật có thể nhịn uống nước trong 6 tháng.",
+      "Chúng có khả năng ngụy trang đổi màu theo môi trường.",
+      "Vào mùa sinh sản, các con đực sẽ có những trận chiến đẫm máu để tranh giành quyền làm chủ một 'hậu cung' gồm hàng chục con cái.",
+      "Chúng chỉ sinh sản 1 lần duy nhất trong suốt vòng đời."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Chính xác! Loài hải cẩu lớn nhất thế giới. Con đực có chiếc mũi to như vòi voi, dùng để tạo ra tiếng gầm vang dội nhằm khẳng định lãnh thổ."
+  },
+  {
+    "id": 120,
+    "question": "Sự thật thú vị nào sau đây ĐÚNG về loài Hải cẩu Weddell (Weddell Seal)?",
+    "answers": [
+      "Hải cẩu Weddell giao tiếp dưới nước bằng những âm thanh siêu âm kỳ lạ nghe như tiếng sóng vô tuyến hay tiếng chim hót.",
+      "Chúng có khả năng ngụy trang đổi màu theo môi trường.",
+      "Đây là loài vật có thể nhịn uống nước trong 6 tháng.",
+      "Chúng chỉ sinh sản 1 lần duy nhất trong suốt vòng đời."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Chính xác! Loài thú có vú sống ở vùng vĩ độ Nam xa nhất. Chúng có vẻ ngoài 'mũm mĩm' và gương mặt trông như đang mỉm cười."
+  }
+]
