@@ -3317,3 +3317,16 @@ window.onload = () => {
     }
   });
 };
+// ==========================
+// QUIZ POPUP
+// ==========================
+
+function openQuiz(){
+
+    document.getElementById("quizOverlay").style.display = "flex";
+}
+
+function closeQuiz(){
+
+    document.getElementById("quizOverlay").style.display = "none";
+}
