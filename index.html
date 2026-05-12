@@ -1,43 +1,75 @@
 <html>
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+
     <title>WildSphere | Thư Viện Động Vật Hoang Dã</title>
 
-    <!-- FONT CHỮ HIỆN ĐẠI -->
+    <!-- FONT -->
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap"
       rel="stylesheet"
     />
 
-    <!-- FILE CSS -->
+    <!-- CSS -->
     <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
+
+    <!-- ================= HEADER ================= -->
+
     <header>
+
       <div class="header-container">
-        <div class="logo">WildSphere</div>
+
+        <div class="logo">
+          WildSphere
+        </div>
 
         <div class="search-box">
+
           <input
             type="text"
             id="search"
             placeholder="Tìm kiếm tên loài vật..."
           />
-          <span class="search-icon">🔍</span>
+
+          <span class="search-icon">
+            🔍
+          </span>
+
         </div>
 
         <div class="auth-area" id="authArea">
-          <button class="auth-open-btn" id="authOpenBtn" type="button">
+
+          <button
+            class="auth-open-btn"
+            id="authOpenBtn"
+            type="button"
+          >
             Đăng nhập
           </button>
 
-          <div class="auth-panel" id="authPanel" aria-label="Tài khoản">
+          <div
+            class="auth-panel"
+            id="authPanel"
+            aria-label="Tài khoản"
+          >
+
             <div class="auth-card">
-              <div class="auth-visual" aria-hidden="true"></div>
+
+              <div
+                class="auth-visual"
+                aria-hidden="true"
+              ></div>
 
               <div class="auth-form">
+
                 <button
                   class="auth-close-btn"
                   id="authCloseBtn"
@@ -48,11 +80,20 @@
                 </button>
 
                 <div class="auth-brand">
-                  <span class="auth-brand-mark">W</span>
-                  <strong>WildSphere</strong>
+
+                  <span class="auth-brand-mark">
+                    W
+                  </span>
+
+                  <strong>
+                    WildSphere
+                  </strong>
+
                 </div>
 
-                <h3 id="authTitle">Đăng nhập</h3>
+                <h3 id="authTitle">
+                  Đăng nhập
+                </h3>
 
                 <input
                   type="text"
@@ -68,7 +109,10 @@
                   autocomplete="current-password"
                 />
 
-                <p class="auth-message" id="authMessage"></p>
+                <p
+                  class="auth-message"
+                  id="authMessage"
+                ></p>
 
                 <button
                   class="auth-submit-btn"
@@ -85,134 +129,279 @@
                 >
                   Chưa có tài khoản? Đăng ký
                 </button>
+
               </div>
+
             </div>
+
           </div>
 
           <div class="user-menu" id="userMenu">
+
             <button
               class="user-chip"
               id="userChip"
               type="button"
               title="Đi tới Dashboard"
-              onclick="window.location.href = 'user-dashboard.html'"
+              onclick="window.location.href='user-dashboard.html'"
             ></button>
 
-            <button class="logout-btn" id="logoutBtn" type="button">
+            <button
+              class="logout-btn"
+              id="logoutBtn"
+              type="button"
+            >
               Đăng xuất
             </button>
+
           </div>
+
         </div>
+
       </div>
+
     </header>
 
-    <!-- HERO -->
+    <!-- ================= HERO ================= -->
+
     <section class="hero">
+
       <div class="hero-content">
-        <h1>Bảo Tồn Kỳ Quan Thiên Nhiên</h1>
+
+        <h1>
+          Bảo Tồn Kỳ Quan Thiên Nhiên
+        </h1>
 
         <p>
-          Hành trình khám phá sự đa dạng sinh học và tập tính của các loài động
-          vật hoang dã trên toàn cầu.
+          Hành trình khám phá sự đa dạng sinh học và
+          tập tính của các loài động vật hoang dã trên
+          toàn cầu.
         </p>
 
-        <!-- NÚT MỞ QUIZ -->
-        <div class="quiz-start-area">
-          <button class="open-quiz-btn" onclick="openQuiz()">
-            🚀 Bắt đầu Quiz
-          </button>
-        </div>
       </div>
+
     </section>
 
-    <!-- ================= TABS ================= -->
+    <!-- ================= FILTER ================= -->
 
     <div class="sticky-controls">
-      <!-- HỆ THỐNG LỌC SINH HỌC -->
+
+      <!-- PHÂN LOẠI -->
+
       <section class="category-section">
+
         <div class="category-tabs">
-          <div class="tab active" data-class="all">🌍 Tất cả các loài</div>
-          <div class="tab" data-class="linh-truong">🐒 Linh trưởng</div>
-          <div class="tab" data-class="thu">🐅 Thú có vú</div>
-          <div class="tab" data-class="bo-sat">🐊 Bò sát</div>
-          <div class="tab" data-class="luong-cu">🐸 Lưỡng cư</div>
-          <div class="tab" data-class="chim">🦅 Chim</div>
+
+          <div
+            class="tab active"
+            data-class="all"
+          >
+            🌍 Tất cả các loài
+          </div>
+
+          <div
+            class="tab"
+            data-class="linh-truong"
+          >
+            🐒 Linh trưởng
+          </div>
+
+          <div
+            class="tab"
+            data-class="thu"
+          >
+            🐅 Thú có vú
+          </div>
+
+          <div
+            class="tab"
+            data-class="bo-sat"
+          >
+            🐊 Bò sát
+          </div>
+
+          <div
+            class="tab"
+            data-class="luong-cu"
+          >
+            🐸 Lưỡng cư
+          </div>
+
+          <div
+            class="tab"
+            data-class="chim"
+          >
+            🦅 Chim
+          </div>
+
         </div>
+
       </section>
 
-      <!-- HỆ THỐNG LỌC CHÂU LỤC -->
-      <section class="filter-section">
-        <div class="pills-wrapper">
-          <div class="indicator" id="indicator"></div>
+      <!-- CHÂU LỤC -->
 
-          <button class="pill active" data-continent="all">
+      <section class="filter-section">
+
+        <div class="pills-wrapper">
+
+          <div
+            class="indicator"
+            id="indicator"
+          ></div>
+
+          <button
+            class="pill active"
+            data-continent="all"
+          >
             Tất cả khu vực
           </button>
 
-          <button class="pill" data-continent="Châu Á">Châu Á</button>
+          <button
+            class="pill"
+            data-continent="Châu Á"
+          >
+            Châu Á
+          </button>
 
-          <button class="pill" data-continent="Châu Phi">Châu Phi</button>
+          <button
+            class="pill"
+            data-continent="Châu Phi"
+          >
+            Châu Phi
+          </button>
 
-          <button class="pill" data-continent="Bắc Mỹ">Bắc Mỹ</button>
+          <button
+            class="pill"
+            data-continent="Bắc Mỹ"
+          >
+            Bắc Mỹ
+          </button>
 
-          <button class="pill" data-continent="Nam Mỹ">Nam Mỹ</button>
+          <button
+            class="pill"
+            data-continent="Nam Mỹ"
+          >
+            Nam Mỹ
+          </button>
 
-          <button class="pill" data-continent="Châu Âu">Châu Âu</button>
+          <button
+            class="pill"
+            data-continent="Châu Âu"
+          >
+            Châu Âu
+          </button>
 
-          <button class="pill" data-continent="Châu Úc">Châu Úc</button>
+          <button
+            class="pill"
+            data-continent="Châu Úc"
+          >
+            Châu Úc
+          </button>
 
-          <button class="pill" data-continent="Châu Nam Cực">
+          <button
+            class="pill"
+            data-continent="Châu Nam Cực"
+          >
             Nam Cực
           </button>
+
         </div>
+
       </section>
+
     </div>
 
-    <!-- MAIN -->
+    <!-- ================= MAIN ================= -->
+
     <main>
+
+      <!-- Card động vật -->
       <div class="grid" id="list"></div>
+
     </main>
 
-    <!-- MODAL CHI TIẾT -->
+    <!-- ================= MODAL ================= -->
+
     <div id="animalModal" class="modal">
+
       <div class="modal-content">
-        <!-- Nút đóng -->
-        <span class="close-btn" onclick="closeModal()">&times;</span>
+
+        <!-- ĐÓNG -->
+        <span
+          class="close-btn"
+          onclick="closeModal()"
+        >
+          &times;
+        </span>
 
         <!-- BODY -->
         <div class="modal-body">
+
           <!-- LEFT -->
           <div class="m-left">
-            <img id="m-img" src="" alt="Hình ảnh" />
+
+            <img
+              id="m-img"
+              src=""
+              alt="Hình ảnh"
+            />
+
           </div>
 
           <!-- RIGHT -->
           <div class="m-right">
+
             <h2 id="m-name"></h2>
 
             <div id="m-status-container"></div>
 
-            <div class="detail-stats" aria-label="Thông tin nhanh">
+            <div
+              class="detail-stats"
+              aria-label="Thông tin nhanh"
+            >
+
               <div class="detail-stat">
-                <span>Cân nặng</span>
+
+                <span>
+                  Cân nặng
+                </span>
+
                 <strong id="m-weight"></strong>
+
               </div>
 
               <div class="detail-stat">
-                <span>Tuổi thọ</span>
+
+                <span>
+                  Tuổi thọ
+                </span>
+
                 <strong id="m-lifespan"></strong>
+
               </div>
 
               <div class="detail-stat">
-                <span>Môi trường</span>
+
+                <span>
+                  Môi trường
+                </span>
+
                 <strong id="m-habitat"></strong>
+
               </div>
+
             </div>
 
             <div class="map-panel">
+
               <div class="map-header">
-                <h4>Vùng phân bố đại diện</h4>
+
+                <h4>
+                  Vùng phân bố đại diện
+                </h4>
+
                 <span id="m-range"></span>
+
               </div>
 
               <div
@@ -220,47 +409,90 @@
                 id="m-map"
                 aria-label="Vùng phân bố đại diện"
               >
-                <span class="map-dot" id="m-map-dot"></span>
+
+                <span
+                  class="map-dot"
+                  id="m-map-dot"
+                ></span>
+
               </div>
 
-              <p class="map-note" id="m-map-note"></p>
+              <p
+                class="map-note"
+                id="m-map-note"
+              ></p>
+
             </div>
 
-            <button class="sound-btn" id="soundBtn" type="button">
-              <span class="sound-icon" aria-hidden="true"></span>
+            <button
+              class="sound-btn"
+              id="soundBtn"
+              type="button"
+            >
 
-              <span id="soundLabel">Nghe âm thanh</span>
+              <span
+                class="sound-icon"
+                aria-hidden="true"
+              ></span>
+
+              <span id="soundLabel">
+                Nghe âm thanh
+              </span>
+
             </button>
 
-            <h4>Mô tả sơ lược</h4>
+            <h4>
+              Mô tả sơ lược
+            </h4>
+
             <p id="m-desc"></p>
 
-            <h4>Tập tính & Lối sống</h4>
+            <h4>
+              Tập tính & Lối sống
+            </h4>
+
             <p id="m-habit"></p>
 
             <div class="fact-box">
-              <strong>💡 Sự thật thú vị:</strong>
+
+              <strong>
+                💡 Sự thật thú vị:
+              </strong>
+
               <p id="m-fact"></p>
+
             </div>
 
             <div class="status-legend">
-              <strong>Chú thích IUCN:</strong>
+
+              <strong>
+                Chú thích IUCN:
+              </strong>
+
               <br />
 
-              EN: Nguy cấp | VU: Sắp nguy cấp | NT: Sắp bị đe dọa | LC: Ít lo
-              ngại
+              EN: Nguy cấp |
+              VU: Sắp nguy cấp |
+              NT: Sắp bị đe dọa |
+              LC: Ít lo ngại
+
             </div>
+
           </div>
+
         </div>
+
       </div>
 
-      <!-- NÚT ĐIỀU HƯỚNG -->
+      <!-- PREV -->
+
       <button
         class="nav-btn nav-prev"
         id="navPrevBtn"
         type="button"
         aria-label="Xem bài trước"
       >
+
         <svg
           viewBox="0 0 24 24"
           width="28"
@@ -271,9 +503,16 @@
           stroke-linecap="round"
           stroke-linejoin="round"
         >
-          <polyline points="15 18 9 12 15 6"></polyline>
+
+          <polyline
+            points="15 18 9 12 15 6"
+          ></polyline>
+
         </svg>
+
       </button>
+
+      <!-- NEXT -->
 
       <button
         class="nav-btn nav-next"
@@ -281,6 +520,7 @@
         type="button"
         aria-label="Xem bài sau"
       >
+
         <svg
           viewBox="0 0 24 24"
           width="28"
@@ -291,67 +531,120 @@
           stroke-linecap="round"
           stroke-linejoin="round"
         >
-          <polyline points="9 18 15 12 9 6"></polyline>
+
+          <polyline
+            points="9 18 15 12 9 6"
+          ></polyline>
+
         </svg>
+
       </button>
+
     </div>
 
-    <!-- ================= QUIZ POPUP ================= -->
 
-    <div class="quiz-overlay" id="quizOverlay">
-      <div class="quiz-popup">
 
-        <!-- Nút đóng -->
-        <button class="quiz-close-btn" onclick="closeQuiz()">
-          &times;
+    <!-- ================= GAME FLOAT BUTTON ================= -->
+
+    <button
+      class="game-float-btn"
+      onclick="openQuiz()"
+    >
+      🎮
+    </button>
+
+
+
+    <!-- ================= QUIZ SIDEBAR ================= -->
+
+    <div
+      class="quiz-sidebar"
+      id="quizOverlay"
+    >
+
+      <!-- HEADER -->
+
+      <div class="quiz-sidebar-header">
+
+        <h2>
+          🧠 Wild Quiz
+        </h2>
+
+        <button
+          class="quiz-close-btn"
+          onclick="closeQuiz()"
+        >
+          ✕
         </button>
 
-        <!-- Header -->
-        <div class="quiz-header">
-          <h2>🧠 Thử Thách Kiến Thức</h2>
-
-          <p>Trả lời đúng để nhận điểm thưởng</p>
-        </div>
-
-        <!-- Content -->
-        <div class="quiz-content">
-
-          <h2 id="cau-hoi" class="quiz-question">
-            Đang tải câu hỏi...
-          </h2>
-
-          <div class="quiz-answers">
-
-            <button class="btn-answer" onclick="checkAnswer(0)">
-              Đáp án A
-            </button>
-
-            <button class="btn-answer" onclick="checkAnswer(1)">
-              Đáp án B
-            </button>
-
-            <button class="btn-answer" onclick="checkAnswer(2)">
-              Đáp án C
-            </button>
-
-            <button class="btn-answer" onclick="checkAnswer(3)">
-              Đáp án D
-            </button>
-
-          </div>
-
-          <h3 id="thong-bao" class="quiz-message"></h3>
-
-          <div class="quiz-score-box">
-            ⭐ <span id="diem-so">Điểm: 0</span>
-          </div>
-
-        </div>
       </div>
+
+      <!-- CONTENT -->
+
+      <div class="quiz-sidebar-content">
+
+        <h2
+          id="cau-hoi"
+          class="quiz-question"
+        >
+          Đang tải câu hỏi...
+        </h2>
+
+        <div class="quiz-answers">
+
+          <button
+            class="btn-answer"
+            onclick="checkAnswer(0)"
+          >
+            Đáp án A
+          </button>
+
+          <button
+            class="btn-answer"
+            onclick="checkAnswer(1)"
+          >
+            Đáp án B
+          </button>
+
+          <button
+            class="btn-answer"
+            onclick="checkAnswer(2)"
+          >
+            Đáp án C
+          </button>
+
+          <button
+            class="btn-answer"
+            onclick="checkAnswer(3)"
+          >
+            Đáp án D
+          </button>
+
+        </div>
+
+        <h3
+          id="thong-bao"
+          class="quiz-message"
+        ></h3>
+
+        <div class="quiz-score-box">
+
+          ⭐
+          <span id="diem-so">
+            Điểm: 0
+          </span>
+
+        </div>
+
+      </div>
+
     </div>
 
-    <!-- JAVASCRIPT -->
+    <!-- ================= JAVASCRIPT ================= -->
+
     <script src="script.js"></script>
+
     <script src="quiz.js"></script>
+
   </body>
 </html>
