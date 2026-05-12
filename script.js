@@ -3324,10 +3324,14 @@ window.onload = () => {
 
 function openQuiz(){
 
-    document.getElementById("quizOverlay").style.display = "flex";
+    document
+      .getElementById("quizOverlay")
+      .classList.add("active");
 }
 
 function closeQuiz(){
 
-    document.getElementById("quizOverlay").style.display = "none";
+    document
+      .getElementById("quizOverlay")
+      .classList.remove("active");
 }
