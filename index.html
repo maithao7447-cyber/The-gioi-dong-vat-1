@@ -550,8 +550,9 @@
       class="game-float-btn"
       onclick="openQuiz()"
     >
-      🎮
+      🐾
     </button>
+    
 
 
 
@@ -567,7 +568,7 @@
       <div class="quiz-sidebar-header">
 
         <h2>
-          🧠 Wild Quiz
+          🌿 Wild Quiz
         </h2>
 
         <button
@@ -581,68 +582,73 @@
 
       <!-- CONTENT -->
 
-      <div class="quiz-sidebar-content">
+      
+<div class="quiz-sidebar-content">
 
-        <h2
-          id="cau-hoi"
-          class="quiz-question"
-        >
-          Đang tải câu hỏi...
-        </h2>
+  <!-- LOGO -->
+  <div class="quiz-logo">
+    
+  </div>
 
-        <div class="quiz-answers">
+  <!-- CÂU HỎI -->
+  <h2
+    id="cau-hoi"
+    class="quiz-question"
+  >
+    Đang tải câu hỏi...
+  </h2>
 
-          <button
-            class="btn-answer"
-            onclick="checkAnswer(0)"
-          >
-            Đáp án A
-          </button>
+  <!-- ĐÁP ÁN -->
+  <div class="quiz-answers">
 
-          <button
-            class="btn-answer"
-            onclick="checkAnswer(1)"
-          >
-            Đáp án B
-          </button>
+    <button
+      class="nut-dap-an"
+      onclick="checkAnswer(0)"
+    >
+      A. Đáp án A
+    </button>
 
-          <button
-            class="btn-answer"
-            onclick="checkAnswer(2)"
-          >
-            Đáp án C
-          </button>
+    <button
+      class="nut-dap-an"
+      onclick="checkAnswer(1)"
+    >
+      B. Đáp án B
+    </button>
 
-          <button
-            class="btn-answer"
-            onclick="checkAnswer(3)"
-          >
-            Đáp án D
-          </button>
+    <button
+      class="nut-dap-an"
+      onclick="checkAnswer(2)"
+    >
+      C. Đáp án C
+    </button>
 
-        </div>
+    <button
+      class="nut-dap-an"
+      onclick="checkAnswer(3)"
+    >
+      D. Đáp án D
+    </button>
 
-        <h3
-          id="thong-bao"
-          class="quiz-message"
-        ></h3>
-        <div
-  id="quizExplanation"
-  class="quiz-explanation"
-></div>
+  </div>
 
-        <div class="quiz-score-box">
+  <!-- THÔNG BÁO -->
+  <div id="thong-bao"></div>
 
-          ⭐
-          <span id="diem-so">
-            Điểm: 0
-          </span>
+  <!-- EXPLANATION -->
+  <div
+    id="quizExplanation"
+    class="quiz-explanation"
+  ></div>
 
-        </div>
+  <!-- ĐIỂM -->
+  <div id="diem-so">
+    ⭐ Điểm: 0
+  </div>
 
-      </div>
+</div>
+```
 
-    </div>
+    
 
     <!-- ================= JAVASCRIPT ================= -->
 

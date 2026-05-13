@@ -17,11 +17,18 @@ function hienThiCauHoi() {
 
   let cacNut = document.querySelectorAll(".nut-dap-an");
   cacNut.forEach((nut, index) => {
-    nut.innerText = dataCauHoi.answers[index];
+    const kyTu = ["A", "B", "C", "D"];
+
+nut.innerText =
+  kyTu[index] + ". " + dataCauHoi.answers[index];
     nut.style.background = ""; // Reset màu nút
     nut.disabled = false;
   });
   document.getElementById("thong-bao").innerText = "";
+  
+document.getElementById("quizExplanation").innerText = "";
+
+
 }
 
 // 3. Hàm kiểm tra đáp án và LƯU ĐIỂM
@@ -44,6 +51,11 @@ function checkAnswer(viTriNut) {
   }
 
   document.getElementById("diem-so").innerText = "Điểm: " + diem;
+  
+document.getElementById("quizExplanation").innerText =
+  dataCauHoi.explanation;
+
+
 
   cauHienTai++;
   if (cauHienTai < quizData.length) {
@@ -55,5 +67,6 @@ function checkAnswer(viTriNut) {
       "Điểm cuối cùng của bạn đã được lưu!";
   }
 }
+
 
 loadQuizData();

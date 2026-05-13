@@ -1049,7 +1049,7 @@ footer {
 
     border-radius:50%;
 
-    background:linear-gradient(135deg,#22c55e,#16a34a);
+    background:linear-gradient(135deg,#cbc0ab,#f4ecda);
 
     color:white;
 
@@ -1550,4 +1550,41 @@ footer {
         opacity:1;
         transform:translateY(0);
     }
+}
+.dap-an-container {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  margin-top: 25px;
+}
+
+.nut-dap-an {
+  width: 100%;
+  padding: 18px;
+  border: none;
+  border-radius: 18px;
+  background: #dfe4ea;
+  font-size: 22px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.25s;
+}
+
+.nut-dap-an:hover {
+  background: #ffcc80;
+  transform: scale(1.02);
+}
+
+#thong-bao {
+  margin-top: 20px;
+  font-size: 26px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#diem-so {
+  margin-top: 20px;
+  font-size: 28px;
+  font-weight: bold;
+  color: #22aa44;
 }
