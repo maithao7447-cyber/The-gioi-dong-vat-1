@@ -20,7 +20,8 @@
   </head>
 
   <body>
-
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v19.0" nonce="xyz"></script>
     <!-- ================= HEADER ================= -->
 
     <header>
@@ -318,6 +319,7 @@
       <!-- Card động vật -->
       <div class="grid" id="list"></div>
 
+      
     </main>
 
     <!-- ================= MODAL ================= -->
@@ -544,116 +546,101 @@
 
 
 
-    <!-- ================= GAME FLOAT BUTTON ================= -->
+   
+    <!-- ================= FLOATING TOOLBAR ================= -->
+    <div class="floating-toolbar">
+      <button class="action-btn" onclick="openCommunity()" title="Cộng đồng thảo luận">💬</button>
+      <button class="action-btn" onclick="openCharity()" title="Quỹ bảo tồn">💖</button>
+      <button class="action-btn game-btn" onclick="openQuiz()" title="Wild Quiz">🐾</button>
+    </div>
 
-    <button
-      class="game-float-btn"
-      onclick="openQuiz()"
-    >
-      🐾
-    </button>
-    
+    <!-- ================= CHARITY SIDEBAR ================= -->
+    <div class="side-panel" id="charitySidebar">
+      <div class="side-panel-header">
+        <h2>💖 Quỹ Bảo Tồn</h2>
+        <button class="side-panel-close" onclick="closeSidebars()">✕</button>
+      </div>
+      <div class="side-panel-content">
+        <div class="charity-box">
+          <p class="charity-desc">Mỗi điểm bạn ghi được trong Wild Quiz sẽ góp phần bảo vệ động vật hoang dã. Hãy cùng đạt 10,000 điểm!</p>
+          
+          <div class="progress-wrapper">
+            <div class="progress-bg">
+              <div class="progress-fill" id="charity-progress-fill"></div>
+            </div>
+            <div class="progress-text">
+              <span id="charity-current-score">0</span> / 10,000 Điểm
+            </div>
+          </div>
+
+          <button id="donate-btn" class="donate-btn" style="display: none;" onclick="window.open('https://docs.google.com/forms/', '_blank')">
+            🎁 Quyên góp ngay!
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- ================= COMMUNITY SIDEBAR ================= -->
+    <div class="side-panel" id="communitySidebar">
+      <div class="side-panel-header">
+        <h2>💬 Cộng Đồng</h2>
+        <button class="side-panel-close" onclick="closeSidebars()">✕</button>
+      </div>
+      <div class="side-panel-content">
+        <!-- Plugin Facebook -->
+        <div class="fb-comments" data-href="https://wildsphere.com" data-width="100%" data-numposts="5"></div>
+      </div>
+    </div>
 
 
 
     <!-- ================= QUIZ SIDEBAR ================= -->
 
-    <div
-      class="quiz-sidebar"
-      id="quizOverlay"
-    >
 
-      <!-- HEADER -->
+   <div class="quiz-sidebar" id="quizOverlay">
+  <!-- HEADER -->
+  <div class="quiz-sidebar-header">
+    <h2>🌿 Wild Quiz</h2>
+    <button class="quiz-close-btn" onclick="closeSidebars()">✕</button>
+  </div>
 
-      <div class="quiz-sidebar-header">
-
-        <h2>
-          🌿 Wild Quiz
-        </h2>
-
-        <button
-          class="quiz-close-btn"
-          onclick="closeQuiz()"
-        >
-          ✕
-        </button>
-
-      </div>
-
-      <!-- CONTENT -->
-
-      
-<div class="quiz-sidebar-content">
-
-  <!-- LOGO -->
-  <div class="quiz-logo">
+  <!-- CONTENT -->
+  <div class="quiz-sidebar-content">
     
+    <!-- CÂU HỎI -->
+    <h2 id="cau-hoi" class="quiz-question">Đang tải câu hỏi...</h2>
+
+    <!-- ĐÁP ÁN -->
+    <div class="quiz-answers" id="quiz-answers-container">
+      <button class="btn-answer" onclick="checkAnswer(0)">A. Đáp án A</button>
+      <button class="btn-answer" onclick="checkAnswer(1)">B. Đáp án B</button>
+      <button class="btn-answer" onclick="checkAnswer(2)">C. Đáp án C</button>
+      <button class="btn-answer" onclick="checkAnswer(3)">D. Đáp án D</button>
+    </div>
+
+    <!-- THÔNG BÁO -->
+    <div id="thong-bao" class="quiz-message"></div>
+
+    <!-- EXPLANATION (Giải thích) -->
+    <div id="quizExplanation" class="quiz-explanation" style="display: none;"></div>
+
+    <!-- NÚT CHUYỂN CÂU (Ẩn mặc định) -->
+    <button id="btn-next-question" class="quiz-next-btn" onclick="nextQuestion()" style="display: none;">
+      Câu tiếp theo ➔
+    </button>
+
+    <!-- ĐIỂM -->
+    <div id="diem-so" class="quiz-score-box">⭐ Điểm: 0</div>
   </div>
-
-  <!-- CÂU HỎI -->
-  <h2
-    id="cau-hoi"
-    class="quiz-question"
-  >
-    Đang tải câu hỏi...
-  </h2>
-
-  <!-- ĐÁP ÁN -->
-  <div class="quiz-answers">
-
-    <button
-      class="nut-dap-an"
-      onclick="checkAnswer(0)"
-    >
-      A. Đáp án A
-    </button>
-
-    <button
-      class="nut-dap-an"
-      onclick="checkAnswer(1)"
-    >
-      B. Đáp án B
-    </button>
-
-    <button
-      class="nut-dap-an"
-      onclick="checkAnswer(2)"
-    >
-      C. Đáp án C
-    </button>
-
-    <button
-      class="nut-dap-an"
-      onclick="checkAnswer(3)"
-    >
-      D. Đáp án D
-    </button>
-
-  </div>
-
-  <!-- THÔNG BÁO -->
-  <div id="thong-bao"></div>
-
-  <!-- EXPLANATION -->
-  <div
-    id="quizExplanation"
-    class="quiz-explanation"
-  ></div>
-
-  <!-- ĐIỂM -->
-  <div id="diem-so">
-    ⭐ Điểm: 0
-  </div>
-
 </div>
-```
+
 
     
 
     <!-- ================= JAVASCRIPT ================= -->
 
+   <script src="storage.js"></script>
     <script src="script.js"></script>
-
     <script src="quiz.js"></script>
 
   </body>

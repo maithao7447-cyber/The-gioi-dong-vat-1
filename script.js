@@ -3322,16 +3322,94 @@ window.onload = () => {
 // QUIZ POPUP
 // ==========================
 
-function openQuiz(){
 
-    document
-      .getElementById("quizOverlay")
-      .classList.add("active");
+function openQuiz() {
+  const user = localStorage.getItem("wildsphereCurrentUser");
+  
+  if (!user) {
+    // Bỏ alert(), thay vào đó mở khung đăng nhập
+    document.getElementById("authPanel").classList.add("is-open");
+    
+    // Hiện thông báo trực tiếp trên form đăng nhập
+    setAuthMessage("Vui lòng đăng nhập để tham gia Wild Quiz!");
+    
+    // Tự động focus vào ô nhập tên để người dùng gõ luôn
+    document.getElementById("authUsername").focus();
+    return;
+  }
+
+  // Nếu đã đăng nhập thì mở Quiz
+  document.getElementById("quizOverlay").classList.add("active");
 }
 
-function closeQuiz(){
 
-    document
-      .getElementById("quizOverlay")
-      .classList.remove("active");
+// ==========================================
+// QUẢN LÝ THANH TIẾN ĐỘ TỪ THIỆN (Task 3.2 & 3.4)
+// ==========================================
+
+const MAX_CHARITY_SCORE = 10000;
+
+function updateCharityProgressBar() {
+  const data = loadData();
+  const currentScore = data.score;
+
+  // Tính phần trăm
+  let percentage = (currentScore / MAX_CHARITY_SCORE) * 100;
+  if (percentage > 100) percentage = 100; // Khóa tối đa 100%
+
+  // Lấy các element
+  const fillEl = document.getElementById('charity-progress-fill');
+  const textEl = document.getElementById('charity-current-score');
+  const donateBtn = document.getElementById('donate-btn');
+
+  // Đổ dữ liệu vào UI
+  if (fillEl) fillEl.style.width = percentage + '%';
+  if (textEl) textEl.innerText = currentScore.toLocaleString(); // Format số có dấu phẩy
+
+  // Nếu đủ 10.000 điểm thì hiện nút Google Form
+  if (currentScore >= MAX_CHARITY_SCORE && donateBtn) {
+    donateBtn.style.display = 'inline-flex';
+  } else if (donateBtn) {
+    donateBtn.style.display = 'none';
+  }
+}
+
+// Lắng nghe sự kiện từ storage.js để cập nhật real-time khi chơi quiz
+window.addEventListener('scoreUpdated', updateCharityProgressBar);
+
+// Cập nhật ngay khi trang vừa load xong
+document.addEventListener('DOMContentLoaded', updateCharityProgressBar);
+
+// ==========================================
+// QUẢN LÝ MỞ/ĐÓNG SIDEBARS (Charity, Community)
+// ==========================================
+
+// Hàm tắt tất cả các sidebar trước khi mở cái mới
+function closeSidebars() {
+  document.getElementById('quizOverlay').classList.remove('active');
+  document.getElementById('charitySidebar').classList.remove('active');
+  document.getElementById('communitySidebar').classList.remove('active');
+}
+
+function openCharity() {
+  closeSidebars(); // Đóng các tab khác
+  document.getElementById('charitySidebar').classList.add('active');
+}
+
+function openCommunity() {
+  closeSidebars(); // Đóng các tab khác
+  document.getElementById('communitySidebar').classList.add('active');
+}
+
+// Ghi đè lại hàm mở Quiz để nó cũng tự động đóng các tab khác
+function openQuiz() {
+  const user = localStorage.getItem("wildsphereCurrentUser");
+  if (!user) {
+    document.getElementById("authPanel").classList.add("is-open");
+    setAuthMessage("Vui lòng đăng nhập để tham gia Wild Quiz!");
+    document.getElementById("authUsername").focus();
+    return;
+  }
+  closeSidebars();
+  document.getElementById("quizOverlay").classList.add("active");
 }
