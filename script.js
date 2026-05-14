@@ -2800,6 +2800,16 @@ function showDetail(a, index = -1) {
   stopCurrentAudio();
   currentAnimal = a;
   currentAnimalIndex = index;
+  // LƯU LỊCH SỬ XEM
+  if (typeof addViewed === "function") addViewed(a.name);
+
+  // CẬP NHẬT TRẠNG THÁI NÚT LƯU TRÁI TIM
+  const saveBtn = document.getElementById("saveAnimalBtn");
+  if (saveBtn && typeof isSaved === "function") {
+    const saved = isSaved(a.name);
+    saveBtn.innerHTML = saved ? "❤️ Đã lưu" : "🤍 Lưu loài này";
+    saveBtn.classList.toggle("active", saved);
+  }
   const detail = getDetailProfile(a);
 
   document.getElementById("m-img").src = a.img;
@@ -3279,41 +3289,58 @@ function moveIndicator(btn) {
   indicator.style.left = btn.offsetLeft + "px";
 }
 
-searchInput.oninput = handleFilter;
+// ==========================================
+// RÀNG BUỘC SỰ KIỆN (Bảo vệ tránh lỗi khi ở trang Dashboard)
+// ==========================================
+if (searchInput) searchInput.oninput = handleFilter;
 if (navPrevBtn) navPrevBtn.onclick = previousAnimal;
 if (navNextBtn) navNextBtn.onclick = nextAnimal;
 
-soundBtn.onclick = () => {
-  if (!currentAnimal) return;
+if (soundBtn) {
+  soundBtn.onclick = () => {
+    if (!currentAnimal) return;
+    if (currentAudio) {
+      stopCurrentAudio();
+      resetSoundLabel();
+      return;
+    }
+    playAnimalSound(currentAnimal);
+  };
+}
 
-  if (currentAudio) {
-    stopCurrentAudio();
-    resetSoundLabel();
-    return;
+window.onclick = (e) => {
+  const modal = document.getElementById("animalModal");
+  if (modal && e.target == modal) closeModal();
+  const authPanel = document.getElementById("authPanel");
+  if (authPanel && e.target === authPanel) authPanel.classList.remove("is-open");
+};
+
+// Hàm xử lý khi bấm nút "Lưu loài này"
+function handleSaveClick() {
+  if (!currentAnimal) return;
+  const isNowSaved = toggleSaved(currentAnimal.name);
+  const btn = document.getElementById('saveAnimalBtn');
+  if (btn) {
+    btn.innerHTML = isNowSaved ? '❤️ Đã lưu' : '🤍 Lưu loài này';
+    btn.classList.toggle('active', isNowSaved);
+  }
+}
+
+window.onload = () => {
+  if (typeof initAuth === "function") initAuth();
+  
+  if (typeof list !== 'undefined' && list) {
+    render(animals);
+    const activePill = document.querySelector(".pill.active");
+    if(activePill) moveIndicator(activePill);
   }
 
-  playAnimalSound(currentAnimal);
-};
-window.onclick = (e) => {
-  if (e.target == modal) closeModal();
-  if (authPanel && e.target === authPanel)
-    authPanel.classList.remove("is-open");
-};
-window.onload = () => {
-  initAuth();
-  render(animals);
-  moveIndicator(document.querySelector(".pill.active"));
-
-  // Thêm sự kiện bàn phím để điều hướng bài viết
   document.addEventListener("keydown", (e) => {
-    if (!modal.classList.contains("is-open")) return;
-
-    if (e.key === "ArrowLeft") {
-      previousAnimal();
-    } else if (e.key === "ArrowRight") {
-      nextAnimal();
-    } else if (e.key === "Escape") {
-      closeModal();
+    const modal = document.getElementById("animalModal");
+    if (modal && modal.classList.contains("is-open")) {
+      if (e.key === "ArrowLeft") previousAnimal();
+      else if (e.key === "ArrowRight") nextAnimal();
+      else if (e.key === "Escape") closeModal();
     }
   });
 };
@@ -3396,9 +3423,100 @@ function openCharity() {
   document.getElementById('charitySidebar').classList.add('active');
 }
 
+// ==========================================
+// HỆ THỐNG BÌNH LUẬN CỘNG ĐỒNG
+// ==========================================
+
+// 1. Hiển thị danh sách bình luận
+function renderComments() {
+  const commentList = document.getElementById('comment-list');
+  const comments = getComments(); // Gọi từ storage.js
+  
+  if (comments.length === 0) {
+    commentList.innerHTML = '<p style="text-align:center; color: var(--muted); font-style: italic;">Chưa có bình luận nào. Hãy là người đầu tiên!</p>';
+    return;
+  }
+
+  // Đổ data vào HTML
+  commentList.innerHTML = comments.map(c => {
+    // Xử lý thời gian cho đẹp
+    const date = new Date(c.timestamp);
+    const timeString = date.toLocaleTimeString('vi-VN', {hour: '2-digit', minute:'2-digit'}) + ' - ' + date.toLocaleDateString('vi-VN');
+    
+    // Bảo mật: Đổi < > thành ký tự an toàn chống XSS
+    const safeText = c.text.replace(/</g, "&lt;").replace(/>/g, "&gt;");
+
+    return `
+      <div class="comment-item">
+        <div class="comment-header">
+          <div class="comment-author">
+            <div class="comment-avatar">${c.username.charAt(0).toUpperCase()}</div>
+            <span>${c.username}</span>
+          </div>
+          <div class="comment-time">${timeString}</div>
+        </div>
+        <div class="comment-text">${safeText}</div>
+      </div>
+    `;
+  }).join('');
+}
+
+// 2. Hiển thị ô nhập bình luận (Kiểm tra xem đã Đăng Nhập chưa)
+function renderCommentInput() {
+  const inputSection = document.getElementById('comment-input-section');
+  const user = localStorage.getItem("wildsphereCurrentUser");
+
+  if (user) {
+    // NẾU ĐÃ ĐĂNG NHẬP -> Hiện ô nhập Text
+    inputSection.innerHTML = `
+      <div class="comment-author" style="margin-bottom: 10px;">
+        <div class="comment-avatar">${user.charAt(0).toUpperCase()}</div>
+        <span>${user}</span>
+      </div>
+      <textarea id="comment-textarea" class="comment-textarea" placeholder="Chia sẻ suy nghĩ của bạn về thế giới động vật..."></textarea>
+      <button class="comment-submit-btn" onclick="postComment()">Gửi bình luận</button>
+      <div style="clear: both;"></div>
+    `;
+  } else {
+    // NẾU CHƯA ĐĂNG NHẬP -> Hiện nút mồi đăng nhập
+    inputSection.innerHTML = `
+      <div class="comment-login-prompt">
+        <p>Vui lòng đăng nhập để tham gia bình luận cùng cộng đồng!</p>
+        <button class="auth-open-btn" style="width: auto;" onclick="openLoginFromComment()">Đăng nhập ngay</button>
+      </div>
+    `;
+  }
+}
+
+// Hàm mở Popup đăng nhập từ bên trong khu vực bình luận
+function openLoginFromComment() {
+    closeSidebars();
+    document.getElementById("authPanel").classList.add("is-open");
+    setAuthMessage("Đăng nhập để tham gia thảo luận!");
+    document.getElementById("authUsername").focus();
+}
+
+// 3. Xử lý khi người dùng ấn "Gửi bình luận"
+function postComment() {
+  const textarea = document.getElementById('comment-textarea');
+  const text = textarea.value.trim();
+  const user = localStorage.getItem("wildsphereCurrentUser");
+
+  if (!text || !user) return; // Nếu bỏ trống thì không làm gì cả
+
+  addComment(user, text); // Lưu vào LocalStorage
+  textarea.value = ''; // Xóa trắng ô nhập
+  renderComments(); // Tải lại danh sách
+}
+
+// 4. Mở Sidebar Cộng đồng (Thay thế hàm cũ)
 function openCommunity() {
-  closeSidebars(); // Đóng các tab khác
+  closeSidebars(); 
   document.getElementById('communitySidebar').classList.add('active');
+  
+  // Tải giao diện
+  renderCommentInput();
+  renderComments();
 }
 
 // Ghi đè lại hàm mở Quiz để nó cũng tự động đóng các tab khác

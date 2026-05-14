@@ -20,8 +20,7 @@
   </head>
 
   <body>
-    <div id="fb-root"></div>
-    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v19.0" nonce="xyz"></script>
+   
     <!-- ================= HEADER ================= -->
 
     <header>
@@ -137,21 +136,21 @@
 
           </div>
 
+          <!-- KHU VỰC ĐÃ ĐĂNG NHẬP -->
           <div class="user-menu" id="userMenu">
+            
+            <!-- Hiển thị Avatar và Tên -->
+            <div class="user-greeting">
+               <span id="userChip"></span>
+            </div>
 
-            <button
-              class="user-chip"
-              id="userChip"
-              type="button"
-              title="Đi tới Dashboard"
-              onclick="window.location.href='user-dashboard.html'"
-            ></button>
+            <!-- Nút vào trang cá nhân -->
+            <button class="dashboard-btn" type="button" title="Đi tới Dashboard" onclick="window.location.href='user-dashboard.html'">
+              Hồ sơ
+            </button>
 
-            <button
-              class="logout-btn"
-              id="logoutBtn"
-              type="button"
-            >
+            <!-- Nút Đăng xuất -->
+            <button class="logout-btn" id="logoutBtn" type="button">
               Đăng xuất
             </button>
 
@@ -353,7 +352,10 @@
           <!-- RIGHT -->
           <div class="m-right">
 
-            <h2 id="m-name"></h2>
+            <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 5px; gap: 10px;">
+              <h2 id="m-name" style="margin-bottom: 0;"></h2>
+              <button id="saveAnimalBtn" class="save-btn" onclick="handleSaveClick()">🤍 Lưu loài này</button>
+            </div>
 
             <div id="m-status-container"></div>
 
@@ -587,8 +589,15 @@
         <button class="side-panel-close" onclick="closeSidebars()">✕</button>
       </div>
       <div class="side-panel-content">
-        <!-- Plugin Facebook -->
-        <div class="fb-comments" data-href="https://wildsphere.com" data-width="100%" data-numposts="5"></div>
+        <!-- Khu vực nhập bình luận (Sẽ đổi nếu chưa đăng nhập) -->
+        <div id="comment-input-section" class="comment-input-section">
+          <!-- JS sẽ tự động điền form vào đây -->
+        </div>
+        
+        <!-- Danh sách bình luận -->
+        <div class="comment-list" id="comment-list">
+          <!-- JS sẽ tự động đổ các bình luận vào đây -->
+        </div>
       </div>
     </div>
 

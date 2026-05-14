@@ -3,395 +3,182 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Dashboard | WildSphere</title>
+    <title>Hồ Sơ Của Tôi | WildSphere</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
     <style>
-      body {
-        font-family: "Inter", sans-serif;
-        background-color: #fdfaf2;
-      }
-      .glass-card {
-        background: rgba(255, 255, 255, 0.8);
-        backdrop-filter: blur(10px);
-      }
-      .active-link {
-        border-left: 4px solid #c49a68;
-        background: rgba(196, 154, 104, 0.1);
-        color: #0b1f3a !important;
-      }
+      body { font-family: "Inter", sans-serif; background-color: #fdfaf2; }
+      .glass-card { background: rgba(255, 255, 255, 0.8); backdrop-filter: blur(10px); }
+      .active-link { border-left: 4px solid #c49a68; background: rgba(196, 154, 104, 0.1); color: #0b1f3a !important; }
     </style>
   </head>
   <body class="text-slate-800">
     <div class="flex min-h-screen">
       <!-- SIDEBAR -->
-      <aside class="w-64 bg-[#0b1f3a] text-white hidden md:flex flex-col">
-        <div class="p-8 text-2xl font-extrabold tracking-tighter">
+      <aside class="w-64 bg-[#0b1f3a] text-white hidden md:flex flex-col fixed h-screen">
+        <div class="p-8 text-2xl font-extrabold tracking-tighter cursor-pointer" onclick="window.location.href='index.html'">
           WildSphere
         </div>
-
         <nav class="flex-1 px-4 space-y-2">
-          <a
-            href="index.html"
-            class="flex items-center gap-3 p-3 text-slate-400 hover:text-white transition"
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="20"
-              height="20"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            >
-              <path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
-              <polyline points="9 22 9 12 15 12 15 22"></polyline>
-            </svg>
+          <a href="index.html" class="flex items-center gap-3 p-3 text-slate-400 hover:text-white transition">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
             Trang chủ
           </a>
-          <a
-            href="#"
-            class="flex items-center gap-3 p-3 active-link text-white font-semibold"
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="20"
-              height="20"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            >
-              <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
-              <circle cx="9" cy="7" r="4"></circle>
-              <path d="M22 21v-2a4 4 0 0 0-3-3.87"></path>
-              <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
-            </svg>
-            Dashboard
-          </a>
-          <a
-            href="#"
-            class="flex items-center gap-3 p-3 text-slate-400 hover:text-white transition"
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="20"
-              height="20"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            >
-              <path
-                d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"
-              ></path>
-            </svg>
-            Đã lưu (12)
-          </a>
-          <a
-            href="#"
-            class="flex items-center gap-3 p-3 text-slate-400 hover:text-white transition"
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="20"
-              height="20"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            >
-              <circle cx="12" cy="12" r="10"></circle>
-              <polyline points="12 6 12 12 16 14"></polyline>
-            </svg>
-            Lịch sử xem
-          </a>
-          <a
-            href="#"
-            class="flex items-center gap-3 p-3 text-slate-400 hover:text-white transition"
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="20"
-              height="20"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            >
-              <path
-                d="M12.22 2h-.44a2 2 0 0 0-2 2v.18a2 2 0 0 1-1 1.73l-.43.25a2 2 0 0 1-2 0l-.15-.08a2 2 0 0 0-2.73.73l-.22.38a2 2 0 0 0 .73 2.73l.15.1a2 2 0 0 1 1 1.72v.51a2 2 0 0 1-1 1.74l-.15.09a2 2 0 0 0-.73 2.73l.22.38a2 2 0 0 0 2.73.73l.15-.08a2 2 0 0 1 2 0l.43.25a2 2 0 0 1 1 1.73V20a2 2 0 0 0 2 2h.44a2 2 0 0 0 2-2v-.18a2 2 0 0 1 1-1.73l.43-.25a2 2 0 0 1 2 0l.15.08a2 2 0 0 0 2.73-.73l.22-.39a2 2 0 0 0-.73-2.73l-.15-.08a2 2 0 0 1-1-1.74v-.5a2 2 0 0 1 1-1.74l.15-.09a2 2 0 0 0 .73-2.73l-.22-.38a2 2 0 0 0-2.73-.73l-.15.08a2 2 0 0 1-2 0l-.43-.25a2 2 0 0 1-1-1.73V4a2 2 0 0 0-2-2z"
-              ></path>
-              <circle cx="12" cy="12" r="3"></circle>
-            </svg>
-            Cài đặt
+          <a href="#" class="flex items-center gap-3 p-3 active-link text-white font-semibold">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M22 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+            Hồ sơ cá nhân
           </a>
         </nav>
-
         <div class="p-4 mt-auto">
-          <button
-            class="w-full p-3 bg-red-500/10 text-red-400 rounded-lg font-medium hover:bg-red-500/20 transition duration-200"
-            onclick="window.location.href = 'index.html'"
-          >
-            Đăng xuất
-          </button>
+          <button class="w-full p-3 bg-red-500/10 text-red-400 rounded-lg font-medium hover:bg-red-500/20 transition" onclick="handleLogout()">Đăng xuất</button>
         </div>
       </aside>
 
       <!-- MAIN CONTENT -->
-      <main class="flex-1 overflow-y-auto">
+      <main class="flex-1 ml-0 md:ml-64 overflow-y-auto min-h-screen">
         <!-- TOP HEADER -->
-        <header
-          class="h-20 border-b flex items-center justify-between px-8 bg-white/50 sticky top-0 z-10 backdrop-blur-md"
-        >
+        <header class="h-20 border-b flex items-center justify-between px-8 bg-white/80 sticky top-0 z-10 backdrop-blur-md">
           <div>
-            <h1 class="text-xl font-bold text-[#0b1f3a]">
-              Xin chào, <span id="userName">Nhà thám hiểm</span> 👋
-            </h1>
-            <p class="text-sm text-slate-500">
-              Hôm nay bạn muốn tìm hiểu loài vật nào?
-            </p>
+            <h1 class="text-xl font-bold text-[#0b1f3a]">Xin chào, <span id="userName">...</span> 👋</h1>
+            <p class="text-sm text-slate-500">Thành tích của bạn: <span id="dashboard-score" class="font-bold text-green-600">0 Điểm từ thiện</span></p>
           </div>
-          <div class="flex items-center gap-4">
-            <button class="p-2 text-slate-400 hover:text-[#0b1f3a] relative">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              >
-                <path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"></path>
-                <path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"></path>
-              </svg>
-              <span
-                class="absolute top-2 right-2 w-2 h-2 bg-red-500 rounded-full"
-              ></span>
-            </button>
-            <div
-              class="w-10 h-10 bg-[#c49a68] rounded-full border-2 border-white shadow-sm flex items-center justify-center text-white font-bold"
-            >
-              U
-            </div>
-          </div>
+          <button class="md:hidden p-2 text-slate-400" onclick="window.location.href='index.html'">Trở về trang chủ</button>
         </header>
 
-        <div class="p-8 space-y-8">
+        <div class="p-8 space-y-8 max-w-6xl mx-auto">
           <!-- STATS CARDS -->
           <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div
-              class="glass-card p-6 rounded-2xl border border-white shadow-sm"
-            >
-              <p
-                class="text-sm text-slate-500 font-medium uppercase tracking-wider"
-              >
-                Đã khám phá
-              </p>
+            <div class="glass-card p-6 rounded-2xl border border-white shadow-sm">
+              <p class="text-sm text-slate-500 font-medium uppercase tracking-wider">Đã khám phá</p>
               <div class="flex items-end gap-2 mt-2">
-                <span class="text-4xl font-black text-[#0b1f3a]">42</span>
-                <span class="text-green-500 text-sm font-bold mb-1"
-                  >+5 tuần này</span
-                >
+                <span id="stat-viewed" class="text-4xl font-black text-[#0b1f3a]">0</span>
+                <span class="text-slate-400 text-sm font-bold mb-1">loài vật</span>
               </div>
             </div>
-            <div
-              class="glass-card p-6 rounded-2xl border border-white shadow-sm"
-            >
-              <p
-                class="text-sm text-slate-500 font-medium uppercase tracking-wider"
-              >
-                Bài viết đã lưu
-              </p>
-              <div class="mt-2">
-                <span class="text-4xl font-black text-[#0b1f3a]">12</span>
+            <div class="glass-card p-6 rounded-2xl border border-white shadow-sm">
+              <p class="text-sm text-slate-500 font-medium uppercase tracking-wider">Bộ sưu tập đã lưu</p>
+              <div class="flex items-end gap-2 mt-2">
+                <span id="stat-saved" class="text-4xl font-black text-[#0b1f3a]">0</span>
+                <span class="text-slate-400 text-sm font-bold mb-1">bài viết</span>
               </div>
             </div>
-            <div
-              class="glass-card p-6 rounded-2xl border border-white shadow-sm"
-            >
-              <p
-                class="text-sm text-slate-500 font-medium uppercase tracking-wider"
-              >
-                Huy hiệu
-              </p>
-              <div class="flex gap-2 mt-2">
-                <div
-                  class="w-8 h-8 rounded-full bg-yellow-100 flex items-center justify-center text-lg"
-                  title="Thám hiểm tập sự"
-                >
-                  🌍
-                </div>
-                <div
-                  class="w-8 h-8 rounded-full bg-blue-100 flex items-center justify-center text-lg"
-                  title="Yêu động vật"
-                >
-                  🐾
-                </div>
-                <div
-                  class="w-8 h-8 rounded-full bg-red-100 flex items-center justify-center text-lg"
-                  title="Người bảo vệ"
-                >
-                  🛡️
-                </div>
+            <div class="glass-card p-6 rounded-2xl border border-white shadow-sm">
+              <p class="text-sm text-slate-500 font-medium uppercase tracking-wider">Huy hiệu đạt được</p>
+              <div id="badges-container" class="flex gap-3 mt-3">
+                <p class="text-sm text-slate-400 italic">Chưa có huy hiệu</p>
               </div>
             </div>
+          </div>
+
+          <!-- RECENTLY VIEWED (Bài xem gần nhất) -->
+          <div id="recent-section" class="bg-[#0b1f3a] rounded-2xl p-8 text-white flex flex-col md:flex-row items-center gap-8 overflow-hidden relative shadow-lg" style="display: none;">
+            <div class="relative z-10 flex-1">
+              <h3 class="text-2xl font-bold mb-2">Tiếp tục hành trình bảo tồn?</h3>
+              <p class="text-slate-300 mb-6 max-w-md">Bạn đang xem dở bài viết về <span id="recent-animal-name" class="text-white font-bold italic">...</span>. Hãy quay lại để hiểu rõ hơn về chúng!</p>
+              <button onclick="window.location.href='index.html'" class="px-6 py-3 bg-[#c49a68] text-white rounded-xl font-bold hover:bg-[#b38a5a] transition shadow-md">Đọc tiếp ngay</button>
+            </div>
+            <img id="recent-animal-img" src="" class="w-48 h-48 rounded-2xl object-cover rotate-3 shadow-2xl relative z-10 border-4 border-white/20" alt="Gần đây" />
+            <div class="absolute -right-20 -bottom-20 w-80 h-80 bg-white/5 rounded-full pointer-events-none"></div>
           </div>
 
           <!-- SAVED LIST SECTION -->
           <section>
-            <div class="flex items-center justify-between mb-6">
-              <h2 class="text-2xl font-bold text-[#0b1f3a]">
-                Bộ sưu tập đã lưu
-              </h2>
-              <button
-                class="text-[#c49a68] font-semibold text-sm hover:underline"
-              >
-                Xem tất cả
-              </button>
+            <div class="flex items-center justify-between mb-6 mt-10">
+              <h2 class="text-2xl font-bold text-[#0b1f3a]">Bộ sưu tập đã lưu</h2>
             </div>
-
-            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-              <!-- Animal Card Item -->
-              <div
-                class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-md transition group cursor-pointer border border-slate-100"
-              >
-                <div class="relative h-40">
-                  <img
-                    src="./image/châu phi/su-tu.jpg"
-                    class="w-full h-full object-cover group-hover:scale-105 transition duration-500"
-                    alt="Sư tử"
-                  />
-                  <button
-                    class="absolute top-3 right-3 p-2 bg-white/90 rounded-full text-red-500 shadow-sm"
-                  >
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="16"
-                      height="16"
-                      viewBox="0 0 24 24"
-                      fill="currentColor"
-                    >
-                      <path
-                        d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"
-                      ></path>
-                    </svg>
-                  </button>
-                </div>
-                <div class="p-4">
-                  <span class="text-[10px] font-bold text-[#c49a68] uppercase"
-                    >Châu Phi</span
-                  >
-                  <h3 class="font-bold text-[#0b1f3a] mt-1">Sư tử Châu Phi</h3>
-                </div>
-              </div>
-              <!-- Animal Card Item -->
-              <div
-                class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-md transition group cursor-pointer border border-slate-100"
-              >
-                <div class="relative h-40">
-                  <img
-                    src="./image/châu á/gautruc.jpg"
-                    class="w-full h-full object-cover group-hover:scale-105 transition duration-500"
-                    alt="Gấu trúc"
-                  />
-                  <button
-                    class="absolute top-3 right-3 p-2 bg-white/90 rounded-full text-red-500 shadow-sm"
-                  >
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="16"
-                      height="16"
-                      viewBox="0 0 24 24"
-                      fill="currentColor"
-                    >
-                      <path
-                        d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"
-                      ></path>
-                    </svg>
-                  </button>
-                </div>
-                <div class="p-4">
-                  <span class="text-[10px] font-bold text-[#c49a68] uppercase"
-                    >Châu Á</span
-                  >
-                  <h3 class="font-bold text-[#0b1f3a] mt-1">Gấu trúc lớn</h3>
-                </div>
-              </div>
-            </div>
+            <!-- Danh sách render ra đây -->
+            <div id="saved-list-container" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6"></div>
           </section>
-
-          <!-- RECENTLY VIEWED -->
-          <div
-            class="bg-[#0b1f3a] rounded-2xl p-8 text-white flex flex-col md:flex-row items-center gap-8 overflow-hidden relative"
-          >
-            <div class="relative z-10 flex-1">
-              <h3 class="text-2xl font-bold mb-2">
-                Tiếp tục hành trình bảo tồn?
-              </h3>
-              <p class="text-slate-300 mb-6 max-w-md">
-                Bạn đang xem dở bài viết về loài
-                <span class="text-white font-bold italic">Tê tê Châu Á</span>.
-                Hãy cùng tìm hiểu về nỗ lực bảo tồn chúng!
-              </p>
-              <button
-                class="px-6 py-3 bg-[#c49a68] text-white rounded-xl font-bold hover:bg-[#b38a5a] transition"
-              >
-                Tiếp tục đọc
-              </button>
-            </div>
-            <img
-              src="./image/châu á/te-te.webp"
-              class="w-48 h-48 rounded-2xl object-cover rotate-3 shadow-2xl relative z-10"
-              alt="Sao la"
-            />
-            <!-- Decorative circle -->
-            <div
-              class="absolute -right-20 -bottom-20 w-80 h-80 bg-white/5 rounded-full"
-            ></div>
-          </div>
         </div>
       </main>
     </div>
 
+    <!-- NẠP THƯ VIỆN DỮ LIỆU CỦA BẠN -->
+    <script src="storage.js"></script>
+    <script src="script.js"></script>
+    
+    <!-- LẬP TRÌNH ĐỔ DỮ LIỆU CHO DASHBOARD -->
     <script>
-      // Hiển thị tên người dùng từ LocalStorage
-      const user = localStorage.getItem("wildsphereCurrentUser");
-      if (user) {
-        document.getElementById("userName").innerText = user;
-      }
-    </script>
-
-    <script>
-      window.onload = function () {
-        // Lấy điểm từ "thẻ nhớ" ra
-        let diemDaLuu = localStorage.getItem("userScore");
-
-        // Nếu có điểm thì hiện ra, không có thì hiện số 0
-        if (diemDaLuu) {
-          // Giả sử có 1 cái thẻ HTML có id là "display-score"
-          document.getElementById("display-score").innerText =
-            diemDaLuu + " Điểm";
-        } else {
-          document.getElementById("display-score").innerText = "0 Điểm";
+      function renderDashboard() {
+        // 1. Kiểm tra đăng nhập
+        const user = localStorage.getItem("wildsphereCurrentUser");
+        if (!user) {
+          alert("Vui lòng đăng nhập để xem hồ sơ!");
+          window.location.href = "index.html";
+          return;
         }
-      };
+        document.getElementById("userName").innerText = user;
+
+        // 2. Lấy dữ liệu từ storage.js
+        const scoreData = typeof loadData === 'function' ? loadData() : {score: 0};
+        const viewed = typeof getViewed === 'function' ? getViewed() : [];
+        const saved = typeof getSaved === 'function' ? getSaved() : [];
+
+        // 3. Hiển thị Thống kê
+        document.getElementById("dashboard-score").innerText = scoreData.score.toLocaleString() + " Điểm từ thiện";
+        document.getElementById("stat-viewed").innerText = viewed.length;
+        document.getElementById("stat-saved").innerText = saved.length;
+
+        // 4. Cấp Huy hiệu dựa trên điểm
+        const badgesContainer = document.getElementById("badges-container");
+        badgesContainer.innerHTML = '';
+        if (scoreData.score >= 0) badgesContainer.innerHTML += `<div class="w-10 h-10 rounded-full bg-yellow-100 flex items-center justify-center text-xl shadow-sm cursor-help" title="Thám hiểm tập sự">🌍</div>`;
+        if (scoreData.score >= 3000) badgesContainer.innerHTML += `<div class="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center text-xl shadow-sm cursor-help" title="Yêu động vật">🐾</div>`;
+        if (scoreData.score >= 10000) badgesContainer.innerHTML += `<div class="w-10 h-10 rounded-full bg-red-100 flex items-center justify-center text-xl shadow-sm cursor-help" title="Người bảo vệ vĩ đại">🛡️</div>`;
+
+        // 5. Render Bộ sưu tập đã lưu (Đối chiếu với mảng animals trong script.js)
+        const savedContainer = document.getElementById("saved-list-container");
+        if (saved.length === 0) {
+          savedContainer.innerHTML = `<p class="text-slate-500 col-span-full py-12 text-center bg-white/50 rounded-xl border border-dashed border-slate-300">Bạn chưa lưu loài vật nào vào bộ sưu tập. Hãy trở về trang chủ và thả tim nhé!</p>`;
+        } else {
+          // Lọc ra các con vật có tên nằm trong danh sách đã lưu
+          const savedAnimals = animals.filter(a => saved.includes(a.name));
+          savedContainer.innerHTML = savedAnimals.map(a => `
+            <div onclick="window.location.href='index.html'" class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-md transition group cursor-pointer border border-slate-200 relative">
+              <div class="relative h-48">
+                <img src="${a.img}" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" alt="${a.name}" />
+                <!-- Nút xóa khỏi bộ sưu tập -->
+                <button onclick="removeSaved(event, '${a.name.replace(/'/g, "\\'")}')" class="absolute top-3 right-3 p-2 bg-white/90 rounded-full text-red-500 shadow-md hover:bg-red-500 hover:text-white transition" title="Bỏ lưu">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"></path></svg>
+                </button>
+              </div>
+              <div class="p-5">
+                <span class="text-xs font-bold text-[#c49a68] uppercase tracking-wider">${a.c}</span>
+                <h3 class="font-bold text-[#0b1f3a] text-lg mt-1 truncate leading-tight">${a.name}</h3>
+              </div>
+            </div>
+          `).join('');
+        }
+
+        // 6. Render Bài vừa xem (Con vật đầu tiên trong mảng Lịch sử)
+        const recentSection = document.getElementById("recent-section");
+        if (viewed.length > 0) {
+          const recentAnimal = animals.find(a => a.name === viewed[0]);
+          if (recentAnimal) {
+            document.getElementById("recent-animal-name").innerText = recentAnimal.name;
+            document.getElementById("recent-animal-img").src = recentAnimal.img;
+            recentSection.style.display = 'flex';
+          }
+        } else {
+          recentSection.style.display = 'none';
+        }
+      }
+
+      // Hàm: Xóa khỏi bộ sưu tập trực tiếp tại Dashboard
+      window.removeSaved = function(event, name) {
+        event.stopPropagation(); // Ngăn việc bị click lầm vào thẻ bài
+        toggleSaved(name); // Gọi hàm xóa trong storage.js
+        renderDashboard(); // Tải lại giao diện ngay lập tức
+      }
+
+      // Hàm: Đăng xuất
+      window.handleLogout = function() {
+        localStorage.removeItem("wildsphereCurrentUser");
+        window.location.href = "index.html";
+      }
+
+      // Kích hoạt ngay khi trang web tải xong
+      window.addEventListener('DOMContentLoaded', renderDashboard);
     </script>
   </body>
 </html>
