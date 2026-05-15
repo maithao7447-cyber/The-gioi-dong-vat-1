@@ -43,11 +43,23 @@ header {
   gap: 16px;
 }
 
+/* --- CẬP NHẬT CLASS LOGO --- */
 .logo {
-  font-size: 22px;
+  display: flex;
+  align-items: center;
+  gap: 12px; /* Khoảng cách giữa hình logo và chữ */
+  font-size: 24px; /* Chữ to lên một xíu cho cân với hình */
   font-weight: 800;
-  color: #0b1f3a; /* Xanh đen */
+  color: var(--primary-dark);
   letter-spacing: -0.5px;
+  cursor: pointer;
+}
+
+.logo img {
+  height: 40px; /* Điều chỉnh độ to nhỏ của logo ở đây */
+  width: auto;
+  border-radius: 8px; /* Bo góc nhẹ nếu logo của bạn là hình vuông */
+  object-fit: contain;
 }
 
 /* --- THANH TÌM KIẾM DẠNG VIÊN THUỐC (PILL) --- */
